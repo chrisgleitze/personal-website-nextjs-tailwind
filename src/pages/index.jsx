@@ -267,8 +267,8 @@ export default function Home({ articles }) {
           I&apos;m a Frontend Developer based in Frankfurt am Main, Germany. I focus on ReactJS and I&apos;ve worked with nextJS, Tailwind, Bootstrap, WordPress and Webflow.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          For my podcast I talk to founders and other interesting people about their stories and insights. In my blog I write about creativity,
-        culture, startups and technology.
+          For my podcast I talk to founders and other interesting people about their stories and insights. In my blog I write about programming,
+        culture and technology.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -284,7 +284,7 @@ export default function Home({ articles }) {
               target="_blank"
             />
             <SocialLink
-              href="https://www.linkedin.com/in/chrisgleitze/"
+              href="https://www.linkedin.com/in/chrisgleitze"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
               target="_blank"
