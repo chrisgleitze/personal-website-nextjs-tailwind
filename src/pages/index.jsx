@@ -250,9 +250,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Christian Gleitze - Frontend Developer & Podcaster
-        </title>
+        <title>Christian Gleitze - Frontend Developer & Podcaster</title>
         <meta
           name="description"
           content="I’m Chris, a Frontend Developer and Podcaster based in Frankfurt, Germany."
@@ -264,11 +262,14 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I&apos;m a Frontend Developer based in Frankfurt am Main, Germany. I focus on ReactJS and I&apos;ve worked with nextJS, Tailwind, Bootstrap, WordPress and Webflow.
+            I&apos;m a Frontend Developer based in Frankfurt am Main, Germany. I
+            focus on ReactJS and I&apos;ve worked with nextJS, Tailwind,
+            Bootstrap, WordPress and Webflow.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          For my podcast I talk to founders and other interesting people about their stories and insights. In my blog I write about programming,
-        culture and technology.
+            For my podcast I talk to founders and other interesting people about
+            their stories and insights. In my blog I write about programming,
+            culture and technology.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -300,8 +301,7 @@ export default function Home({ articles }) {
               <Article key={article.slug} article={article} />
             ))}
           </div>
-          <div className="space-y-10 lg:pl-16 xl:pl-24">
-          </div>
+          <div className="space-y-10 lg:pl-16 xl:pl-24"></div>
         </div>
       </Container>
     </>
