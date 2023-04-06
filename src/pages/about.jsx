@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Christian Gleitze</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="Christian Gleitze is a Frontend Web Developer and Podcaster in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,8 +61,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              I’m Chris, Frontend Dev and Podcaster.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
@@ -95,13 +94,27 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://twitter.com/chrisgleitze" target="_blank" icon={TwitterIcon}>
+              <SocialLink
+                href="https://twitter.com/chrisgleitze"
+                target="_blank"
+                icon={TwitterIcon}
+              >
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://github.com/chrisgleitze" icon={GitHubIcon} className="mt-4" target="_blank">
+              <SocialLink
+                href="https://github.com/chrisgleitze"
+                icon={GitHubIcon}
+                className="mt-4"
+                target="_blank"
+              >
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="https://www.linkedin.com/in/chrisgleitze" icon={LinkedInIcon} className="mt-4" target="_blank">
+              <SocialLink
+                href="https://www.linkedin.com/in/chrisgleitze"
+                icon={LinkedInIcon}
+                className="mt-4"
+                target="_blank"
+              >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
