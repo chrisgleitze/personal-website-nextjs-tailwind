@@ -62,7 +62,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Christian Gleitze</title>
         <meta
           name="description"
           content="My Frontend Development Projects, mainly in React, nextJS, Tailwind."
@@ -70,7 +70,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Projects"
-        intro="My Frontend Development Projects, mainly in React, nextJS, Tailwind."
+        intro="Some of my more recent projects as Frontend Developer."
       >
         <ul
           role="list"
