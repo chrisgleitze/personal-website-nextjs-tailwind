@@ -38,17 +38,18 @@ const projects = [
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Website Components',
+    description: 'JavaScript',
+    link: {
+      href: 'https://github.com/chrisgleitze/vanillaJS-website-components',
+      label: 'github.com',
+    },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Corporate Landing Page',
+    description: 'Webflow, HTML, CSS',
+    link: { href: 'https://www.cyclio.app/', label: 'github.com' },
     logo: logoOpenShuttle,
   },
 ]
