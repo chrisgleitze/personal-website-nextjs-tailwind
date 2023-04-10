@@ -29,10 +29,12 @@ const projects = [
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Order Summary Component',
+    description: 'CSS',
+    link: {
+      href: 'https://github.com/chrisgleitze/order-summary-component',
+      label: 'github.com',
+    },
     logo: logoHelioStream,
   },
   {
