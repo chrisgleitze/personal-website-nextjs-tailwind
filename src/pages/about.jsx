@@ -61,14 +61,14 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hey! I’m Chris,
+              Hey! I&apos;m Chris,
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 a <b>Frontend Developer</b> living in Frankfurt, Germany. I
-                program websites and apps with JavaScript, ReactJS, nextJS and
-                other web technologies. If you&apos;re interested in that make
-                sure to check out my{' '}
+                program websites and apps with JavaScript, ReactJS and other web
+                technologies. If you&apos;re interested in that make sure to
+                check out my{' '}
                 <a
                   href="\projects"
                   class="text-teal-400 underline hover:no-underline"
@@ -85,21 +85,22 @@ export default function About() {
               </p>
               <p>
                 I&apos;m also digitally creative as <b>Podcaster</b> and{' '}
-                <b>YouTuber</b>. You can check out my{' '}
+                <b>YouTuber</b>. For my{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
                 >
                   podcast
                 </a>{' '}
-                and videos from concerts I went to on my{' '}
+                I talk to founders and other interesting people about their
+                lessons and stories. On my{' '}
                 <a
                   href="https://www.youtube.com/@ReunionsMusic"
                   class="text-teal-400 underline hover:no-underline"
                 >
                   YouTube channel
-                </a>
-                .
+                </a>{' '}
+                you&apos;ll find videos of the concerts I went to.
               </p>
             </div>
           </div>
@@ -133,7 +134,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                Send me a mail
+                Send me an e-mail
               </SocialLink>
             </ul>
           </div>
