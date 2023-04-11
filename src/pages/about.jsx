@@ -101,12 +101,6 @@ export default function About() {
                 </a>
                 .
               </p>
-              <p>
-                I&apos;m a more extroverted developer, so I don&apos;t shy away
-                from getting to know new people. If you want to engage with me,
-                give me a follow on Twitter, GitHub or LinkedIn. Feel free to
-                reach out to me via e-mail as well.
-              </p>
             </div>
           </div>
           <div className="lg:pl-20">
@@ -119,14 +113,6 @@ export default function About() {
                 Follow on Twitter
               </SocialLink>
               <SocialLink
-                href="https://github.com/chrisgleitze"
-                icon={GitHubIcon}
-                className="mt-4"
-                target="_blank"
-              >
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink
                 href="https://www.linkedin.com/in/chrisgleitze"
                 icon={LinkedInIcon}
                 className="mt-4"
@@ -135,11 +121,19 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
+                href="https://github.com/chrisgleitze"
+                icon={GitHubIcon}
+                className="mt-4"
+                target="_blank"
+              >
+                Follow on GitHub
+              </SocialLink>
+              <SocialLink
                 href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#097;&#110;&#045;&#103;&#108;&#101;&#105;&#116;&#122;&#101;&#064;&#119;&#101;&#098;&#046;&#100;&#101;"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                Send me an e-mail
+                Send me a mail
               </SocialLink>
             </ul>
           </div>
