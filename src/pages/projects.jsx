@@ -8,6 +8,11 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoNextJS from '@/images/logos/nextjs.svg'
+import logoBootstrap from '@/images/logos/bootstrap.svg'
+import logoCSS from '@/images/logos/css.svg'
+import logoJavascript from '@/images/logos/javascript.svg'
+import logoWebflow from '@/images/logos/webflow.svg'
 
 const projects = [
   {
@@ -17,7 +22,7 @@ const projects = [
       href: 'https://github.com/chrisgleitze/personal-website-nextjs-tailwind',
       label: 'github.com',
     },
-    logo: logoPlanetaria,
+    logo: logoNextJS,
   },
   {
     name: 'One Pager',
@@ -26,7 +31,7 @@ const projects = [
       href: 'https://github.com/chrisgleitze/chrisgleitze.github.io',
       label: 'github.com',
     },
-    logo: logoAnimaginary,
+    logo: logoBootstrap,
   },
   {
     name: 'Order Summary Component',
@@ -35,7 +40,7 @@ const projects = [
       href: 'https://github.com/chrisgleitze/order-summary-component',
       label: 'github.com',
     },
-    logo: logoHelioStream,
+    logo: logoCSS,
   },
   {
     name: 'Website Components',
@@ -44,13 +49,13 @@ const projects = [
       href: 'https://github.com/chrisgleitze/vanillaJS-website-components',
       label: 'github.com',
     },
-    logo: logoCosmos,
+    logo: logoJavascript,
   },
   {
     name: 'Corporate Landing Page',
     description: 'Webflow, CSS',
     link: { href: 'https://www.cyclio.app/', label: 'github.com' },
-    logo: logoOpenShuttle,
+    logo: logoWebflow,
   },
 ]
 
