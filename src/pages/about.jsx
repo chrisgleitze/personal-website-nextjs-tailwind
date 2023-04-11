@@ -61,21 +61,45 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Chris, Frontend Dev and Podcaster.
+              Hey! I’m Chris,
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                a Frontend Developer living in Frankfurt, Germany. I program
+                websites and apps with JavaScript, ReactJS, nextJS and other web
+                technologies. If you&apos;re interested in that make sure to
+                check out my{' '}
+                <a
+                  href="\projects"
+                  class="text-teal-400 underline hover:no-underline"
+                >
+                  portfolio
+                </a>
+                .
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                I learned HTML and CSS basics in school. I built my first
+                website with WordPress in 2017. In 2020 I started creating
+                websites for clients with WordPress, Webflow and other Content
+                Management Systems.
+              </p>
+              <p>
+                Besides Frontend Development I'm digitally creative as Podcaster
+                and YouTuber. You can check out{' '}
+                <a
+                  href="https://linktr.ee/ConnectingDotsPod"
+                  class="text-teal-400 underline hover:no-underline"
+                >
+                  my podcast
+                </a>{' '}
+                or videos from concerts I went to on{' '}
+                <a
+                  href="https://www.youtube.com/@ReunionsMusic"
+                  class="text-teal-400 underline hover:no-underline"
+                >
+                  my YouTube channel
+                </a>
+                .
               </p>
             </div>
           </div>
