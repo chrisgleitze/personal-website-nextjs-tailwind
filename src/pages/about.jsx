@@ -85,19 +85,19 @@ export default function About() {
               </p>
               <p>
                 I&apos;m also digitally creative as <b>Podcaster</b> and{' '}
-                <b>YouTuber</b>. You can check out{' '}
+                <b>YouTuber</b>. You can check out my{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
                 >
-                  my podcast
+                  podcast
                 </a>{' '}
-                or videos from concerts I went to on{' '}
+                or videos from concerts I went to on my{' '}
                 <a
                   href="https://www.youtube.com/@ReunionsMusic"
                   class="text-teal-400 underline hover:no-underline"
                 >
-                  my YouTube channel
+                  YouTube channel
                 </a>
                 .
               </p>
