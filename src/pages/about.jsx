@@ -84,8 +84,8 @@ export default function About() {
                 Management Systems.
               </p>
               <p>
-                Besides Frontend Development I'm digitally creative as Podcaster
-                and YouTuber. You can check out{' '}
+                Besides Frontend Development I&apos;m digitally creative as
+                Podcaster and YouTuber. You can check out{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
