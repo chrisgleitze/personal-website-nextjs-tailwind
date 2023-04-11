@@ -65,10 +65,10 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                a Frontend Developer living in Frankfurt, Germany. I program
-                websites and apps with JavaScript, ReactJS, nextJS and other web
-                technologies. If you&apos;re interested in that make sure to
-                check out my{' '}
+                a <b>Frontend Developer</b> living in Frankfurt, Germany. I
+                program websites and apps with JavaScript, ReactJS, nextJS and
+                other web technologies. If you&apos;re interested in that make
+                sure to check out my{' '}
                 <a
                   href="\projects"
                   class="text-teal-400 underline hover:no-underline"
@@ -84,8 +84,8 @@ export default function About() {
                 Management Systems.
               </p>
               <p>
-                Besides Frontend Development I&apos;m digitally creative as
-                Podcaster and YouTuber. You can check out{' '}
+                I&apos;m also digitally creative as <b>Podcaster</b> and{' '}
+                <b>YouTuber</b>. You can check out{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
@@ -100,6 +100,12 @@ export default function About() {
                   my YouTube channel
                 </a>
                 .
+              </p>
+              <p>
+                I&apos;m a more extroverted developer, so I don&apos;t shy away
+                from getting to know new people. If you want to engage with me,
+                give me a follow on Twitter, GitHub or LinkedIn. Feel free to
+                reach out to me via e-mail as well.
               </p>
             </div>
           </div>
