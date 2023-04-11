@@ -92,7 +92,7 @@ export default function About() {
                 >
                   podcast
                 </a>{' '}
-                or videos from concerts I went to on my{' '}
+                and videos from concerts I went to on my{' '}
                 <a
                   href="https://www.youtube.com/@ReunionsMusic"
                   class="text-teal-400 underline hover:no-underline"
