@@ -262,11 +262,14 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m a Frontend Developer focused on ReactJS. I&apos;ve worked
-            with JavaScript, nextJS, Tailwind, Bootstrap, WordPress and Webflow.
+            I&apos;m a Frontend Developer focused on ReactJS. I&apos;ve also
+            worked with JavaScript, nextJS, Node.js, Tailwind, WordPress and
+            more.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            In my blog below I write about programming, culture and technology.
+            In my blog below you find lessons I learned and thoughts I want to
+            share. Topics include programming, podcasting, work and life in
+            general.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
