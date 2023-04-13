@@ -263,7 +263,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I&apos;m a Frontend Developer focused on JavaScript technologies
-            like ReactJS and nextJS. I&apos;ve also worked with several CSS
+            like React and nextJS. I&apos;ve also worked with several CSS
             frameworks, WordPress, Webflow and more.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
