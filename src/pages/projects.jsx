@@ -82,7 +82,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Projects"
-        intro="Some of my more recent projects as Frontend Developer."
+        intro="Some of my projects as Frontend Developer."
       >
         <ul
           role="list"
