@@ -81,8 +81,8 @@ export default function About() {
                 I learned HTML and CSS basics in school. I built my first
                 website with WordPress in 2017. In 2020 I started creating
                 websites for clients with WordPress, Webflow and other Content
-                Management Systems. Since 2022 I&apos;m programming websites
-                with JavaScript technologies like React and various CSS
+                Management Systems. Since 2022 I&apos;m programming websites and
+                apps with JavaScript technologies like React and various CSS
                 frameworks.
               </p>
               <p>

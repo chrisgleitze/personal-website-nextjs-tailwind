@@ -28,7 +28,7 @@ const projects = [
     name: 'One Pager',
     description: 'Bootstrap',
     link: {
-      href: 'https://github.com/chrisgleitze/chrisgleitze.github.io',
+      href: 'https://github.com/chrisgleitze/bootstrap-one-pager',
       label: 'github.com',
     },
     logo: logoBootstrap,
