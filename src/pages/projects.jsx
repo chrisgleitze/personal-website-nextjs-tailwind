@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: 'One Pager',
-    description: 'Bootstrap',
+    description: 'CSS framework Bootstrap',
     link: {
       href: 'https://github.com/chrisgleitze/bootstrap-one-pager',
       label: 'github.com',
