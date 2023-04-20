@@ -11,6 +11,8 @@ const nextConfig = {
   },
 }
 
+
+// two plugins to support GitHub-flavored markdown
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {

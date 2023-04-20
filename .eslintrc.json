@@ -1,3 +1,4 @@
+// nextJS Linter
 {
   "extends": "next/core-web-vitals"
 }

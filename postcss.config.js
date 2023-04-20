@@ -1,3 +1,4 @@
+// config for PostCSS environment
 module.exports = {
   plugins: {
     tailwindcss: {},
