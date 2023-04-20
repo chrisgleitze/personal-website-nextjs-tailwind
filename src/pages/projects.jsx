@@ -25,6 +25,15 @@ const projects = [
     logo: logoNextJS,
   },
   {
+    name: 'Website Components',
+    description: 'JavaScript',
+    link: {
+      href: 'https://github.com/chrisgleitze/vanillaJS-website-components',
+      label: 'github.com',
+    },
+    logo: logoJavascript,
+  },
+  {
     name: 'One Pager',
     description: 'CSS framework Bootstrap',
     link: {
@@ -41,15 +50,6 @@ const projects = [
       label: 'github.com',
     },
     logo: logoCSS,
-  },
-  {
-    name: 'Website Components',
-    description: 'JavaScript',
-    link: {
-      href: 'https://github.com/chrisgleitze/vanillaJS-website-components',
-      label: 'github.com',
-    },
-    logo: logoJavascript,
   },
   {
     name: 'Corporate Landing Page',
