@@ -13,6 +13,7 @@ import logoBootstrap from '@/images/logos/bootstrap.svg'
 import logoCSS from '@/images/logos/css.svg'
 import logoJavascript from '@/images/logos/javascript.svg'
 import logoWebflow from '@/images/logos/webflow.svg'
+import logoReact from '@/images/logos/react.svg'
 
 const projects = [
   {
@@ -23,6 +24,15 @@ const projects = [
       label: 'github.com',
     },
     logo: logoNextJS,
+  },
+  {
+    name: 'E-Commerce App',
+    description: 'React',
+    link: {
+      href: 'https://github.com/chrisgleitze/react-ecommerce-app',
+      label: 'github.com',
+    },
+    logo: logoReact,
   },
   {
     name: 'Website Components',

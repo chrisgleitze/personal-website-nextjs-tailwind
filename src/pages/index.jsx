@@ -254,7 +254,7 @@ export default function Home({ articles }) {
         <meta
           name="description"
           content="I’m Chris, a Frontend Developer and Podcaster based in Frankfurt, Germany."
-        />
+        /> 
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
