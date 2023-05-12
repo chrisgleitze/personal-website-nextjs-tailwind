@@ -95,14 +95,7 @@ export default function About() {
                   podcast
                 </a>{' '}
                 I talk to founders and other interesting people about their
-                lessons and stories. On my{' '}
-                <a
-                  href="https://www.youtube.com/@ReunionsMusic"
-                  class="text-teal-400 underline hover:no-underline"
-                >
-                  YouTube channel
-                </a>{' '}
-                you&apos;ll find videos of the concerts I went to.
+                lessons and stories.
               </p>
             </div>
           </div>
