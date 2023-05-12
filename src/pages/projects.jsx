@@ -35,15 +35,6 @@ const projects = [
     logo: logoReact,
   },
   {
-    name: 'Website Components',
-    description: 'JavaScript',
-    link: {
-      href: 'https://github.com/chrisgleitze/vanillaJS-website-components',
-      label: 'github.com',
-    },
-    logo: logoJavascript,
-  },
-  {
     name: 'One Pager',
     description: 'CSS framework Bootstrap',
     link: {
