@@ -78,8 +78,8 @@ export default function About() {
                 .
               </p>
               <p>
-                I learned HTML and CSS basics in school. I built my first
-                website with WordPress in 2017. In 2020 I started creating
+                I learned HTML and CSS basics in school. In 2017 I built my first
+                website with WordPress. In 2020 I started creating
                 websites for clients with WordPress, Webflow and other Content
                 Management Systems. Since 2022 I&apos;m programming websites and
                 apps with JavaScript technologies like React and various CSS
