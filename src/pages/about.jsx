@@ -86,8 +86,8 @@ export default function About() {
                 frameworks.
               </p>
               <p>
-                I&apos;m also digitally creative as <b>Podcaster</b> and{' '}
-                <b>YouTuber</b>. For my{' '}
+                I love meeting new people and learn from them. That&apos;s why
+                I'm also a <b>Podcaster</b>. For my{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
