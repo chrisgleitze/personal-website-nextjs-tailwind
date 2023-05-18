@@ -87,7 +87,7 @@ export default function About() {
               </p>
               <p>
                 I love meeting new people and learn from them. That&apos;s why
-                I'm also a <b>Podcaster</b>. For my{' '}
+                I&apos;m also a <b>Podcaster</b>. For my{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
