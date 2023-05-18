@@ -14,6 +14,7 @@ import logoCSS from '@/images/logos/css.svg'
 import logoJavascript from '@/images/logos/javascript.svg'
 import logoWebflow from '@/images/logos/webflow.svg'
 import logoReact from '@/images/logos/react.svg'
+import logoWordPress from '@/images/logos/wordpress.svg'
 
 const projects = [
   {
@@ -57,6 +58,12 @@ const projects = [
     description: 'Webflow, CSS',
     link: { href: 'https://www.cyclio.app/', label: 'cyclio.app' },
     logo: logoWebflow,
+  },
+  {
+    name: 'Professional Website',
+    description: 'WordPress',
+    link: { href: 'https://kaischmelzle.com/', label: 'kaischmelzle.com' },
+    logo: logoWordPress,
   },
 ]
 
