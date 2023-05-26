@@ -97,6 +97,11 @@ export default function About() {
                 I talk to founders and other interesting people about their
                 lessons and stories.
               </p>
+              <p>
+                Do you want to talk to me about programming, podcasting or
+                something else? Feel free to reach out to me via mail or on
+                social media. I'd love to hear from you!
+              </p>
             </div>
           </div>
           <div className="lg:pl-20">
