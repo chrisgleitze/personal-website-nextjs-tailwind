@@ -65,8 +65,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                a <b>Frontend Developer</b> living in Frankfurt, Germany. I
-                program websites and apps with JavaScript, ReactJS and other web
+                a Frontend Developer living in Frankfurt, Germany. I program
+                websites and apps with JavaScript, ReactJS and other web
                 technologies. If you&apos;re interested in that make sure to
                 check out my{' '}
                 <a
@@ -78,15 +78,8 @@ export default function About() {
                 .
               </p>
               <p>
-                I learned HTML and CSS basics in school. In 2017 I built my
-                first website with WordPress. In 2020 I started creating
-                websites for clients with WordPress and Webflow. Since 2022
-                I&apos;m programming websites and apps with JavaScript and
-                React.
-              </p>
-              <p>
-                I love meeting new people and learn from them. That&apos;s why
-                I&apos;m also a <b>Podcaster</b>. For my{' '}
+                Though I&apos;m not just sitting at my laptop. My extroverted
+                part comes out in my conversational podcast. For my{' '}
                 <a
                   href="https://linktr.ee/ConnectingDotsPod"
                   class="text-teal-400 underline hover:no-underline"
@@ -94,7 +87,14 @@ export default function About() {
                   podcast
                 </a>{' '}
                 I talk to founders and other interesting people about their
-                lessons and stories.
+                lessons and stories. And if you like music, you can check out my{' '}
+                <a
+                  href="https://www.youtube.com/@reunionsmusic"
+                  class="text-teal-400 underline hover:no-underline"
+                >
+                  YouTube channel
+                </a>
+                . There I post videos of the concerts I go to.
               </p>
               <p>
                 Do you want to talk to me about programming, podcasting or
