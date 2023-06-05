@@ -60,7 +60,7 @@ const projects = [
     logo: logoWebflow,
   },
   {
-    name: 'Professional Website',
+    name: 'Portfolio Website',
     description: 'WordPress',
     link: { href: 'https://kaischmelzle.com/', label: 'kaischmelzle.com' },
     logo: logoWordPress,
