@@ -254,7 +254,7 @@ export default function Home({ articles }) {
         <meta
           name="description"
           content="I’m Chris, a Frontend Developer and Podcaster based in Frankfurt, Germany."
-        /> 
+        />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
@@ -262,9 +262,9 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m a Frontend Developer focused on JavaScript technologies
-            like React and nextJS. I&apos;ve also worked with several CSS
-            frameworks, WordPress, Webflow and more.
+            I&apos;m a Frontend Developer focused on JavaScript and React.
+            I&apos;ve also worked with several CSS frameworks, WordPress,
+            Webflow and more.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             In my blog below you find lessons I learned and thoughts I want to
