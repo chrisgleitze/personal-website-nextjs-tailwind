@@ -66,8 +66,8 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 a Frontend Developer living in Frankfurt, Germany. I program
-                websites and apps with JavaScript and ReactJS. If you&apos;re interested in that make sure to
-                check out my{' '}
+                websites and apps with JavaScript and ReactJS. If you&apos;re
+                interested in that, then make sure to check out my{' '}
                 <a
                   href="\projects"
                   class="text-teal-400 underline hover:no-underline"
