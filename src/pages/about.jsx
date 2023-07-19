@@ -73,15 +73,7 @@ export default function About() {
                   class="text-teal-400 underline hover:no-underline"
                 >
                   portfolio
-                </a>
-                . Currently I&apos;m an intern at{' '}
-                <a
-                  href="https://openexo.com/"
-                  class="text-teal-400 underline hover:no-underline"
-                >
-                  OpenExO
-                </a>{' '}
-                working on their HubSpot integration.
+                </a>.
               </p>
               <p>
                 Though I&apos;m not just sitting at my laptop. My extroverted
