@@ -264,7 +264,14 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I&apos;m a Frontend Developer focused on JavaScript and React.
             I&apos;ve also worked with several CSS frameworks, WordPress,
-            Webflow and more.
+            Webflow and more. Currently I&apos;m an intern at{' '}
+            <a
+              href="https://openexo.com/"
+              class="text-teal-400 underline hover:no-underline"
+            >
+              OpenExO
+            </a>{' '}
+            working on their HubSpot integration.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             In my blog below you find lessons I learned and thoughts I want to
