@@ -74,10 +74,10 @@ export default function Home({articles}) {
     return (
         <>
             <Head>
-                <title>Christian Gleitze - Frontend Developer & Podcaster</title>
+                <title>Christian Gleitze - Frontend Engineer</title>
                 <meta
                     name="description"
-                    content="I’m Chris, a Frontend Engineer and Podcaster based in Frankfurt, Germany."
+                    content="I’m Chris, a Frontend Engineer based in Frankfurt, Germany."
                 />
             </Head>
             <Container className="mt-9">

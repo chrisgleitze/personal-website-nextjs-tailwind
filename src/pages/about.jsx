@@ -25,17 +25,6 @@ function SocialLink({className, href, children, icon: Icon}) {
     )
 }
 
-function MailIcon(props) {
-    return (
-        <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-            <path
-                fillRule="evenodd"
-                d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"
-            />
-        </svg>
-    )
-}
-
 export default function About() {
     return (
         <>
@@ -85,7 +74,7 @@ export default function About() {
                                 >
                                     podcast
                                 </a>{' '}
-                                I talk to founders and other interesting people about their
+                                I talked to founders and other interesting people about their
                                 lessons and stories. And if you like music, you can check out my{' '}
                                 <a
                                     href="https://www.youtube.com/@reunionsmusic"
@@ -93,11 +82,11 @@ export default function About() {
                                 >
                                     YouTube channel
                                 </a>
-                                . There I post videos of the concerts I go to.
+                                . There I post videos of concerts I&apos;ve been to.
                             </p>
                             <p>
                                 Do you want to talk to me about programming, podcasting or
-                                something else? Feel free to reach out to me via mail or on
+                                something else? Feel free to reach out to me on
                                 social media. I&apos;d love to hear from you!
                             </p>
                         </div>
@@ -109,7 +98,7 @@ export default function About() {
                                 target="_blank"
                                 icon={TwitterIcon}
                             >
-                                Follow on Twitter
+                                Twitter
                             </SocialLink>
                             <SocialLink
                                 href="https://www.linkedin.com/in/chrisgleitze"
@@ -117,7 +106,7 @@ export default function About() {
                                 className="mt-4"
                                 target="_blank"
                             >
-                                Follow on LinkedIn
+                                LinkedIn
                             </SocialLink>
                             <SocialLink
                                 href="https://github.com/chrisgleitze"
@@ -125,14 +114,7 @@ export default function About() {
                                 className="mt-4"
                                 target="_blank"
                             >
-                                Follow on GitHub
-                            </SocialLink>
-                            <SocialLink
-                                href="mailto:&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#097;&#110;&#045;&#103;&#108;&#101;&#105;&#116;&#122;&#101;&#064;&#119;&#101;&#098;&#046;&#100;&#101;"
-                                icon={MailIcon}
-                                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-                            >
-                                Send me an e-mail
+                                GitHub
                             </SocialLink>
                         </ul>
                     </div>
