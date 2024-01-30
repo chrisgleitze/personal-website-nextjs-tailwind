@@ -95,26 +95,29 @@ export default function About() {
                         <ul role="list">
                             <SocialLink
                                 href="https://twitter.com/chrisgleitze"
+                                aria-label="Follow on Twitter"
                                 target="_blank"
                                 icon={TwitterIcon}
                             >
                                 Twitter
                             </SocialLink>
                             <SocialLink
-                                href="https://www.linkedin.com/in/chrisgleitze"
-                                icon={LinkedInIcon}
-                                className="mt-4"
-                                target="_blank"
-                            >
-                                LinkedIn
-                            </SocialLink>
-                            <SocialLink
                                 href="https://github.com/chrisgleitze"
+                                aria-label="Follow on GitHub"
                                 icon={GitHubIcon}
                                 className="mt-4"
                                 target="_blank"
                             >
                                 GitHub
+                            </SocialLink>
+                            <SocialLink
+                                href="https://www.linkedin.com/in/chrisgleitze"
+                                aria-label="Follow on LinkedIn"
+                                icon={LinkedInIcon}
+                                className="mt-4"
+                                target="_blank"
+                            >
+                                LinkedIn
                             </SocialLink>
                         </ul>
                     </div>

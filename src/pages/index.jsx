@@ -89,8 +89,8 @@ export default function Home({articles}) {
                         a Junior Frontend Engineer at an IT Consultancy in Frankfurt.
                     </p>
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        In my blog below you find lessons I learned and thoughts I want to
-                        share. Topics include programming, podcasting, work and life in
+                        In my blog below I write down lessons I learned and thoughts I want to
+                        share. Without the help of any AI tool. Topics include programming, podcasting, work and life in
                         general.
                     </p>
                     <div className="mt-6 flex gap-6">
