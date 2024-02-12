@@ -27,7 +27,8 @@ export function Footer() {
                 <NavLink href="/about">About</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Christian Gleitze. All rights
+                Built with Next.js and Tailwind CSS. &copy;{' '}
+                {new Date().getFullYear()} Christian Gleitze. All rights
                 reserved.
               </p>
             </div>
