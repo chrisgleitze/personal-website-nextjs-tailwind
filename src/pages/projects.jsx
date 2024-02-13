@@ -83,10 +83,7 @@ export default function Projects() {
           content="My Frontend Development Projects, mainly in React, nextJS, Tailwind."
         />
       </Head>
-      <SimpleLayout
-        title="Projects"
-        intro="Some of my projects as Frontend Developer."
-      >
+      <SimpleLayout title="Frontend Projects">
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
