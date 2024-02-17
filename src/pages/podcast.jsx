@@ -32,7 +32,7 @@ export default function Podcast() {
         </div>
         <div className="mt-8 flex w-full justify-center">
           <iframe
-            className="h-60 w-full sm:w-3/4 lg:w-1/2"
+            className="h-80 w-full"
             src="https://www.youtube.com/embed/videoseries?si=Es1QKUCeFrsRPBda&amp;list=PL6JJo0QYr8F5Qx-h-UPJiVfQzZYcYH-_U"
             title="YouTube video player"
             frameBorder="0"
