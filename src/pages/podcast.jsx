@@ -16,7 +16,6 @@ export default function Podcast() {
           <iframe
             className="h-60 w-full"
             src="https://open.spotify.com/embed/show/68Ojkgjc3ybfwcpfLnKnau"
-            frameBorder="0"
             allowTransparency="true"
             allow="encrypted-media"
           ></iframe>
@@ -25,7 +24,6 @@ export default function Podcast() {
           <iframe
             className="h-60 w-full"
             src="https://embed.podcasts.apple.com/de/podcast/the-connecting-dots-podcast/id1479050991"
-            frameBorder="0"
             allowTransparency="true"
             allow="encrypted-media"
           ></iframe>
@@ -35,7 +33,6 @@ export default function Podcast() {
             className="h-80 w-full"
             src="https://www.youtube.com/embed/videoseries?si=Es1QKUCeFrsRPBda&amp;list=PL6JJo0QYr8F5Qx-h-UPJiVfQzZYcYH-_U"
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
