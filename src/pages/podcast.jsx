@@ -45,11 +45,11 @@ export default function Podcast() {
             Other people&apos;s podcasts
           </h1>
           <p>
-            I also produced podcasts for other people. One client was the the
-            German Federal Ministry of Family Affairs. For them I produced the
-            podcast &#39;Kinderwunschzeit&#39; in 2022. It&apos;s about the
-            topic of fertility and the wish to have children. You&apos;ll find
-            links to all podcast players{' '}
+            I also produced podcasts for other people. One client was the German
+            Federal Ministry of Family Affairs. For them I produced the podcast
+            &#39;Kinderwunschzeit&#39; in 2022. It&apos;s about the topic of
+            fertility and the wish to have children. You&apos;ll find links to
+            all podcast players{' '}
             <a
               href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
               class="text-teal-400 underline hover:no-underline"
