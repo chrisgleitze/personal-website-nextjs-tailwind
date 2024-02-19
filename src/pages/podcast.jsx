@@ -42,7 +42,7 @@ export default function Podcast() {
         </div>
         <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
           <h1 className="pb-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Other people's podcasts
+            Other people&apos;s podcasts
           </h1>
           <p>
             I also produced podcasts for clients. One of them was the podcast
