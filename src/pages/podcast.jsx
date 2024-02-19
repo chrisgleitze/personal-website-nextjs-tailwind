@@ -12,7 +12,7 @@ export default function Podcast() {
         />
       </Head>
       <SimpleLayout
-        title="Podcast"
+        title="The Connecting Dots Podcast"
         intro="I don't do my podcast anymore because I want to focus on Frontend Engineering. Though I put a lot of work into the podcast and I think it's still worth listening to. It's about lessons & stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs. I dove deep into their life lessons, their successes and failures."
       >
         <div className="mt-4 w-full">
@@ -40,8 +40,10 @@ export default function Podcast() {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="mt-8 flex border-t border-zinc-100 pt-6 dark:border-zinc-400/60"></div>
         <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
+          <h1 className="pb-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            Other people's podcasts
+          </h1>
           <p>
             I also produced podcasts for clients. One of them was the podcast
             &#39;Kinderwunschzeit&#39; that I produced for the German Federal
