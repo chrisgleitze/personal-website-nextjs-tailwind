@@ -6,7 +6,10 @@ export default function Podcast() {
     <>
       <Head>
         <title>Podcast - Christian Gleitze</title>
-        <meta name="description" content="XXX" />
+        <meta
+          name="description"
+          content="The Connecting Dots Podcast is about lessons & stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs."
+        />
       </Head>
       <SimpleLayout
         title="Podcast"
@@ -36,6 +39,22 @@ export default function Podcast() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
+        </div>
+        <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
+          <p>
+            I also produced podcasts for clients. One of them was the podcast
+            &#39;Kinderwunschzeit&#39; that I produced for the Federal Ministry
+            of Family Affairs in 2022. It&apos;s about the topic of fertility
+            and the wish to have children. You&apos;ll find links to all podcast
+            players{' '}
+            <a
+              href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
+              class="text-teal-400 underline hover:no-underline"
+            >
+              here
+            </a>
+            .
+          </p>
         </div>
       </SimpleLayout>
     </>
