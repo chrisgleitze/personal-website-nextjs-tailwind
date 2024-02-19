@@ -31,7 +31,7 @@ export default function Podcast() {
             allow="encrypted-media"
           ></iframe>
         </div>
-        <div className="mt-8 flex w-full justify-center">
+        <div className="mt-8 flex w-full justify-center pb-8">
           <iframe
             className="h-80 w-full"
             src="https://www.youtube.com/embed/videoseries?si=Es1QKUCeFrsRPBda&amp;list=PL6JJo0QYr8F5Qx-h-UPJiVfQzZYcYH-_U"
@@ -44,10 +44,10 @@ export default function Podcast() {
         <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
           <p>
             I also produced podcasts for clients. One of them was the podcast
-            &#39;Kinderwunschzeit&#39; that I produced for the Federal Ministry
-            of Family Affairs in 2022. It&apos;s about the topic of fertility
-            and the wish to have children. You&apos;ll find links to all podcast
-            players{' '}
+            &#39;Kinderwunschzeit&#39; that I produced for the German Federal
+            Ministry of Family Affairs in 2022. It&apos;s about the topic of
+            fertility and the wish to have children. You&apos;ll find links to
+            all podcast players{' '}
             <a
               href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
               class="text-teal-400 underline hover:no-underline"
