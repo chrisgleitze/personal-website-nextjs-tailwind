@@ -40,6 +40,7 @@ export default function Podcast() {
             allowFullScreen
           ></iframe>
         </div>
+        <div className="mt-8 flex border-t border-zinc-100 pt-6 dark:border-zinc-400/60"></div>
         <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
           <p>
             I also produced podcasts for clients. One of them was the podcast
