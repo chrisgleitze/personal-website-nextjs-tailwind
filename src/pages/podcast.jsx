@@ -18,23 +18,23 @@ export default function Podcast() {
         <div className="mt-4 w-full">
           <iframe
             className="h-60 w-full"
-            src="https://open.spotify.com/embed/show/68Ojkgjc3ybfwcpfLnKnau"
+            src="https://open.spotify.com/embed/show/68Ojkgjc3ybfwcpfLnKnau?utm_source=generator&theme=0"
             allowTransparency="true"
             allow="encrypted-media"
           ></iframe>
         </div>
         <div className="mt-8 w-full">
           <iframe
-            className="h-60 w-full"
-            src="https://embed.podcasts.apple.com/de/podcast/the-connecting-dots-podcast/id1479050991"
+            className="h-96 w-full"
+            src="https://embed.podcasts.apple.com/us/podcast/the-connecting-dots-podcast/id1479050991?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark"
             allowTransparency="true"
             allow="encrypted-media"
           ></iframe>
         </div>
         <div className="mt-8 flex w-full justify-center pb-8">
           <iframe
-            className="h-80 w-full"
-            src="https://www.youtube.com/embed/videoseries?si=Es1QKUCeFrsRPBda&amp;list=PL6JJo0QYr8F5Qx-h-UPJiVfQzZYcYH-_U"
+            className="h-96 w-full"
+            src="https://www.youtube.com/embed/videoseries?si=PbPlwLt0OLB4Xxz0&amp;list=PL6JJo0QYr8F4gRNHYXiO2kCj5R7iRw43e"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -47,9 +47,8 @@ export default function Podcast() {
           <p>
             I also produced podcasts for other people. One client was the German
             Federal Ministry of Family Affairs. For them I produced the podcast
-            &#39;Kinderwunschzeit&#39; in 2022. It&apos;s about the topic of
-            fertility and the wish to have children. You&apos;ll find links to
-            all podcast players{' '}
+            &#39;Kinderwunschzeit&#39; in 2022. It&apos;s about the wish to have
+            children. You&apos;ll find links to all podcast players{' '}
             <a
               href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
               class="text-teal-400 underline hover:no-underline"
