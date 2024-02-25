@@ -16,4 +16,116 @@ What is beginner friendly about it? It consists of only the most important git c
 
 By now I know most of these commands by heart. Though this is what I would’ve liked to have when I started out. So maybe you’re just starting out and you can benefit from it.
 
-Download it as [PDF](./Beginner-Git-Cheat-Sheet.pdf) or as [text file](./Beginner-Git-Cheat-Sheet.txt) in case you want to edit it.
+```text title="Git Cheat Sheet"
+A beginner friendly Git CheatSheet
+
+
+Getting started
+
+Setting up a repository
+
+git init
+creates new git repo in current directory
+
+git init <directory>
+creates new git repo in <directory>
+
+git clone
+git clone git@...
+clones existing git repo
+
+git config
+git config --list --global
+
+git config --list
+shows git configuration settings
+this is important to check what mail address you use in your git commits
+
+
+Saving changes
+
+git pull
+updates branch you’re on in local repo
+
+git add
+adds a change in the working directory to the staging area
+it tells git that you want to include updates to a particular file in the next commit
+
+git add --all
+adds all changes to the staging area
+
+git commit
+commits changes to current branch
+
+git commit -m "commit message"
+commit local changes to local repo, incl. message "commit message"
+
+git push
+pushes local changes to remote repo 
+
+Inspecting a repository
+
+git branch
+lists all branches in current repo
+
+git log
+shows commit history of current branch
+
+git status
+shows which branch your on and which files you’ve made changes to
+
+
+Undoing changes
+
+there are several ways to undo changes; git reset is commonly used
+
+find the commit you want to reset to via:
+git log --oneline
+copy the 7 digit commit number
+
+git reset *commit number*
+
+Warning: This can do serious damage to your project! Practice this first in a test repo where you can mess around to see how it works.
+
+
+Using branches
+
+git branch
+lists branches, the asterisk denotes the branch you’re on
+
+git checkout
+navigates between git branches
+
+git checkout feature/usercount
+navigates to feature branch feature/usercount
+
+git checkout -b feature/usercount
+creates and navigates to new branch usercount
+
+git branch -d feature/usercount
+deletes the specified branch
+
+git branch -D feature/usercount
+force deletes the specified branch
+
+git branch -m <branch>
+renames branch
+
+git feature/slider -m feature/usercount-v1
+renames branch feature/slider to feature/usercount-v1
+
+git branch -a
+lists all remote branches
+
+git merge:
+
+e.g. you want to merge a branch into the main branch
+navigates to branch <main> first:
+git checkout main
+
+from <main> branch do the merge:
+git merge feature/usercount-v1
+merges branch <feature/usercount-v1> into branch <main>
+```
+
+https://www.atlassian.com/git/tutorials/setting-up-a-repository
