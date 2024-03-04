@@ -80,8 +80,8 @@ export default function Home({ articles }) {
             a Junior Frontend Engineer at an IT Consultancy in Frankfurt.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            In my blog I write about programming, podcasting, work and life in
-            general. Without the help of any AI tool.
+            In my blog I write about programming, podcasting and other
+            interests. Without the help of any AI tool.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
