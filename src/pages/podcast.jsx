@@ -15,10 +15,10 @@ export default function Podcast() {
         title="The Connecting Dots Podcast"
         intro="I don't do my podcast anymore because I want to focus on Frontend Engineering. Though I put a lot of work into the podcast and I think it's still worth listening to. It's about lessons & stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs. I dove deep into their life lessons, their successes and failures."
       >
-        <h1 className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Spotify
         </h1>
-        <div className="mt-4 w-full">
+        <div className="mt-4 w-full pb-8">
           <iframe
             className="h-60 w-full"
             src="https://open.spotify.com/embed/show/68Ojkgjc3ybfwcpfLnKnau?utm_source=generator&theme=0"
@@ -26,10 +26,10 @@ export default function Podcast() {
             allow="encrypted-media"
           ></iframe>
         </div>
-        <h1 className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Apple Podcasts
         </h1>
-        <div className="mt-8 w-full">
+        <div className="mt-8 w-full pb-8">
           <iframe
             className="h-96 w-full"
             src="https://embed.podcasts.apple.com/us/podcast/the-connecting-dots-podcast/id1479050991?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark"
@@ -37,7 +37,7 @@ export default function Podcast() {
             allow="encrypted-media"
           ></iframe>
         </div>
-        <h1 className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+        <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           YouTube
         </h1>
         <div className="mt-8 flex w-full justify-center pb-8">
@@ -49,6 +49,7 @@ export default function Podcast() {
             allowFullScreen
           ></iframe>
         </div>
+        <hr className="mx-auto my-4 h-1 w-48 rounded border-0 bg-gray-100 dark:bg-gray-700 md:my-10" />
         <div className="mt-8 text-base text-zinc-600 dark:text-zinc-400">
           <h1 className="pb-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             Other people&apos;s podcasts
