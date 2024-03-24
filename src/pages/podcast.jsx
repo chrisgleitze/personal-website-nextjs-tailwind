@@ -58,7 +58,7 @@ export default function Podcast() {
             I also produced podcasts for other people. One client was the German
             Federal Ministry of Family Affairs. For them I produced the podcast
             &#39;Kinderwunschzeit&#39; in 2022. It&apos;s about the wish to have
-            children. You&apos;ll find links to all podcast players{' '}
+            children from a psychological and medical perspective. You&apos;ll find links to all podcast players{' '}
             <a
               href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
               class="text-teal-400 underline hover:no-underline"
