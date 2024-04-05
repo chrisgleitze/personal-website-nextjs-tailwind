@@ -13,7 +13,7 @@ export default function Podcast() {
       </Head>
       <SimpleLayout
         title="The Connecting Dots Podcast"
-        intro="I don't do my podcast anymore because I want to focus on Frontend Engineering. Though I did put a lot of work into the podcast and I think it's still worth listening to. It's about lessons and stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs. I dove deep into their life lessons, their successes and failures."
+        intro="I don't do my podcast anymore because I want to focus on my career in Frontend Engineering. Though I did put a lot of work into the podcast and I think it's still worth listening to. It's about lessons and stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs. I dove deep into their life lessons, their successes and failures."
       >
         <h1 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Spotify
