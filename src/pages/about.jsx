@@ -92,7 +92,7 @@ export default function About() {
                 href="https://github.com/chrisgleitze"
                 aria-label="Follow on GitHub"
                 icon={GitHubIcon}
-                className="mt-4 underline"
+                className="mt-4"
                 target="_blank"
               >
                 GitHub
@@ -101,7 +101,7 @@ export default function About() {
                 href="https://www.linkedin.com/in/chrisgleitze"
                 aria-label="Follow on LinkedIn"
                 icon={LinkedInIcon}
-                className="mt-4 underline"
+                className="mt-4"
                 target="_blank"
               >
                 LinkedIn
