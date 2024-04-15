@@ -81,8 +81,7 @@ export default function Home({ articles }) {
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             In my blog I write about programming, podcasting and other
-            interests. Without the help of any AI tool. I don&apos;t publish new
-            blog posts every other week.
+            interests.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
