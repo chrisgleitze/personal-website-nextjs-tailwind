@@ -81,7 +81,7 @@ export default function About() {
               </p>
               <p>
                 Do you want to talk to me about programming, podcasting or
-                something else? Feel free to reach out to me on social media.
+                whatever else? Feel free to reach out to me on social media.
                 Looking forward to hearing from you!
               </p>
             </div>
