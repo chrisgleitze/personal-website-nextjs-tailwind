@@ -28,7 +28,7 @@ export default function About() {
         <title>About - Christian Gleitze</title>
         <meta
           name="description"
-          content="Christian Gleitze is a Frontend Web Developer and Podcaster in Frankfurt, Germany."
+          content="Christian Gleitze is a Frontend Engineer and Podcaster in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -49,7 +49,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                a Junior Frontend Engineer at an IT Consultancy in Frankfurt. I
+                a Frontend Engineer based in Frankfurt am Main, Germany. I
                 program with JavaScript, TypeScript and ReactJS. If you&apos;re
                 interested in that, then make sure to check out my{' '}
                 <a
