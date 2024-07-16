@@ -50,7 +50,7 @@ const projects = [
   {
     name: 'Corporate Landing Page',
     description: 'Webflow, CSS',
-    link: { href: 'https://www.cyclio.app/', label: 'cyclio.app' },
+    link: { href: '', label: 'cyclio.app (now defunct)' },
     logo: logoWebflow,
   },
   {
