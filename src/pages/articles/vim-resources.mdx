@@ -1,0 +1,195 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Christian Gleitze',
+  date: '2024-06-23',
+  title: 'Cool Vim stuff',
+  description: 'Intermediate Vim motions and additional resources .',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Vim is a text editor that makes navigating and editing of code very easy and fast. Over the years it garnered at cult-like following and a very lively ecosystem online.
+
+The first two parts are many straight forward tips on navigation and editing with Vim. The last part consists of very helpful tips by ThePrimeagen, a Vim enthusiast who is very popular on YouTube and Twitch.
+
+What can you do with the resources below? Copy it all and use it as cheat sheet, get inspiration from it or whatever else you want to do with it.
+
+```text title="Vim"
+NAVIGATING
+
+y : copy
+P : paste (uppercase)
+d : delete
+c : cuts line
+C : cuts line until cursor
+
+4j : move 4 lines down
+4k : move 4 lines up
+4w : move 4 words forward
+4b : move 4 words backward
+
+0 : jump to beginning of the line
+$ : jump to the end of the line
+
+f" : move cursor forward to "
+% : when on a brace, % jumps to matching closing brace; do % again to jump back to opening brace
+
+Ctrl + f : move down a page
+Ctrl + b : move up a page
+gg : jump to top of document
+G : jump to end of file
+
+* : find next occurrence
+# : find previous occurence
+
+Search for patterns:
+press /
+enter pattern
+press Enter to search
+n : find next occurrence
+N : find previous occurrence
+
+
+EDITING
+
+dw : delete a word
+d6w : delete 6 words
+dt> : delete till >
+di] : delete everything inside [ ]
+ci} : change everything inside { ]
+dd : delete whole line
+4dd : delete 4 lines
+dip : delete everything in paragraph
+dap : delete around paragraph
+
+s : delete one character or use cl or xi if s is used by Leap plugin in Neovim
+
+:g/pattern/d - remove lines matching the pattern
+:g!/pattern/d - remove lines that do NOT match the pattern
+:v/pattern/d – Also removes lines that do not match the pattern
+
+cw : change until end of current word
+caw : change around the word (incl. whitespace)
+ciw : change inside the word (excl. whitespace)
+ciW : change the whole "thing" you're in
+c2w : change next two words
+
+vaw : visually select word
+
+guiw : make current word lower case
+
+yy : copy a line
+3yy : copy 3 lines
+cc : change a line ( change is delete and go in insert mode )
+cap : change a paragraph
+. : repeat last command
+f' : find first occurrence of '
+f'ci'hello : _find the next ' then change everything inside ' for hello
+
+ddp : moves line below
+ddkP : moves line above
+
+r : replaces single character
+R : replaces more than one character
+
+5i lorem : inserts lorem 5 times
+10gs : puts (neo)vim to sleep for 10 seconds
+
+search with /
+/word.*
+
+Commenting, commentary.vim (github.com/tpope/vim-commentary)
+gcc : comment out a line
+gcap : comment out a paragraph
+
+Multiple Line Editing (native vim)
+Ctrl + v : visual block mode
+*select multiple lines*
+I : insert mode
+*add word or edit whatever*
+Esc : leave insert mode, realizes changes
+
+https://vimforvscode.com/change-multiple-pieces-text
+viw : select word
+Alt + n : select next occurrence
+Esc : unselect words, leaves cursors at each words
+b : go to beginning of word
+cw : change word
+
+Multiple Cursors via plugin (github.com/mg979/vim-visual-multi)
+Ctrl + x : start multicursor and directly select all matches
+
+
+---
+
+Faster Navigation
+from the Primeagen on Reddit https://www.reddit.com/r/vim/comments/m330z4/getting_faster/
+
+Insert Modes:
+
+Learn to take advantage of o and O, A. They are awesome.
+
+yanks/highlights/dels:
+
+ciw, yiw, viw are amazing, but if you need to do the _whole_ word, try yiW. I do this a bunch. Imagine the following: Namespace::Class foo and you want to copy Namespace::Class, you could put your cursor at N and yf<space> but yiW also works (you don't have to be at the beginning of the word) (for this example I don't provide much benefit, but its incredible once you get it)
+
+Vertical Navigation
+
+get use to page ups and downs. I have been resistant for 9.5 years on those, and only since I adopted tmux (traveling the output) have I finally leaned in. ctrl+d/u is exceptionally awesome and they dont alter jump list.
+
+Jump List
+
+Take advantage of the jump list. Example:
+
+I need to add an include/import. I use ggOimport foo from "bar";<esc><ctrl+o>. This will go to the top, insert mode top line, adds import, leaves insert, and travels back from whence I came (like the ring).
+
+File Navigation
+
+Fuzzy finders are great when you don't have an instant jump to the file. Use them. Don't use nerdtree / netrw / dirvish / etc etc etc etc etc.
+
+QuickFix / LocalFix
+
+Learn quick fix menus and their navigation. I have quit using <Ctrl-j/k> and <leader>j/k for window nav and instead use C-j/k for quickfix navigation and <leader>j/k for localfix navigation. cdo or bust
+
+Sorry for the brain dump, but its been an incredible journey for me and I absolutely love to share some wisdom.
+
+Ultimately, how I envision vim should work and why it works so well is that you "think" of what you want and there are keystrokes to accomplish it. If you find yourself just aimlessly scrolling, stop, why should be a big question on your mind.
+
+Lastly, I hate to fearlessly shill my own product, but if you are interested in an alternative to file navigation and use neovim, I would be glad to share my experimental plugin.
+
+Life is to short to proof read
+
+LEARN RELATIVE JUMPS.
+
+
+---
+
+Primeagen's "fighting one eyed Kirby"
+https://www.reddit.com/r/theprimeagen/comments/12v4q06/can_anyone_explain_how_to_do_the_fighting_one/
+https://waylonwalker.com/thoughts-200/
+
+foo
+bar
+baz
+
+:%s/\(.*\)/bar\1/g
+
+barfoo
+barbar
+barbaz
+
+Whats going on here....
+
+%s replace all lines
+
+/ start pattern
+
+\(.*\) the \ are escapes, so the regex is (.*) this basically captures everything on the line and places it into capture group 1
+
+/ substitute section
+
+bar\1 bar is just text, the \ is an escape and the 1 is the previous capture group.
+
+/g finish the set
+```
