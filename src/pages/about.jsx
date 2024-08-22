@@ -64,7 +64,7 @@ export default function About() {
                 Though I&apos;m not just sitting at my laptop. My extroverted
                 part comes out in my conversational podcast. For my{' '}
                 <a
-                  href="https://linktr.ee/ConnectingDotsPod"
+                  href="\podcast"
                   class="text-teal-400 underline hover:no-underline"
                 >
                   podcast
