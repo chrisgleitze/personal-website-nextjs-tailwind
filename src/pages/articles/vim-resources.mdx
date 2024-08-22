@@ -9,20 +9,14 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-Vim is a text editor that makes navigating and editing of code very easy and fast. Over the years it garnered at cult-like following and a very lively ecosystem online.
+Vim is a text editor that makes navigating and editing code very easy and fast. Over the years it garnered at cult-like following and a very lively ecosystem online. A downside of such a big ecosystem is that there is not one central place to find all the information. What I offer here is many beginner and advanced Vim motions in one place.
 
-The first two parts are many straight forward tips on navigation and editing with Vim. The last part consists of very helpful tips by ThePrimeagen, a Vim enthusiast who is very popular on YouTube and Twitch.
+In the first part you find many straight forward Vim tips. The last two parts are very helpful tips I learned from [ThePrimeagen](https://www.youtube.com/c/theprimeagen), a Vim enthusiast who is very popular on YouTube and Twitch.
 
-What can you do with the resources below? Copy it all and use it as cheat sheet, get inspiration from it or do whatever else you want to do with it.
+What can you do with the resources below? Copy it all and use it as cheat sheet, pick from it what you find interesting or do whatever else you want to do with it.
 
 ```text title="Vim"
 NAVIGATING
-
-y : copy
-P : paste (uppercase)
-d : delete
-c : cuts line
-C : cuts line until cursor
 
 4j : move 4 lines down
 4k : move 4 lines up
@@ -52,6 +46,12 @@ N : find previous occurrence
 
 
 EDITING
+
+y : copy
+P : paste (uppercase)
+d : delete
+c : cuts line
+C : cuts line until cursor
 
 dw : delete a word
 d6w : delete 6 words
@@ -84,7 +84,6 @@ yy : copy a line
 cc : change a line ( change is delete and go in insert mode )
 cap : change a paragraph
 . : repeat last command
-f' : find first occurrence of '
 f'ci'hello : _find the next ' then change everything inside ' for hello
 
 ddp : moves line below
@@ -119,10 +118,11 @@ cw : change word
 
 Multiple Cursors via plugin (github.com/mg979/vim-visual-multi)
 Ctrl + x : start multicursor and directly select all matches
+```
 
+This is a comment by ThePrimeagen on Reddit on how to get quicker at navigating with Vim:
 
----
-
+```text title="ThePrimeagen on Faster Navigation"
 Faster Navigation
 from the Primeagen on Reddit https://www.reddit.com/r/vim/comments/m330z4/getting_faster/
 
@@ -161,13 +161,17 @@ Lastly, I hate to fearlessly shill my own product, but if you are interested in 
 Life is to short to proof read
 
 LEARN RELATIVE JUMPS.
+```
 
+The "Fighting one eyed Kirby" is what ThePrimeagen calls a Vim regex capture group to replace text in the buffer.
 
----
-
+```text title="ThePrimeagen's "Fighting one eyed Kirby""
 Primeagen's "fighting one eyed Kirby"
-https://www.reddit.com/r/theprimeagen/comments/12v4q06/can_anyone_explain_how_to_do_the_fighting_one/
-https://waylonwalker.com/thoughts-200/
+video: https://www.twitch.tv/theprimeagen/clip/GentleBumblingLadiesAMPEnergyCherry-MlGwozjH5QU2gV8t
+
+Further explanation: https://waylonwalker.com/thoughts-200/
+
+The following explanation is from this comment on Reddit: https://www.reddit.com/r/theprimeagen/comments/12v4q06/can_anyone_explain_how_to_do_the_fighting_one/
 
 foo
 bar
