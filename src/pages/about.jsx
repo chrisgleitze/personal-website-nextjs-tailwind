@@ -28,7 +28,7 @@ export default function About() {
         <title>About - Christian Gleitze</title>
         <meta
           name="description"
-          content="Christian Gleitze is a Frontend Engineer in Frankfurt, Germany."
+          content="Christian Gleitze is a Frontend Engineer and Podcaster in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">

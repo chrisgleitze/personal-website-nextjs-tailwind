@@ -68,7 +68,7 @@ export default function Home({ articles }) {
         <title>Christian Gleitze - Frontend Engineer</title>
         <meta
           name="description"
-          content="I’m Chris, a Frontend Engineer based in Frankfurt, Germany."
+          content="I’m Chris, a Frontend Engineer and podcaster based in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-9">
