@@ -8,7 +8,7 @@ export default function Podcast() {
         <title>Podcast - Christian Gleitze</title>
         <meta
           name="description"
-          content="The Connecting Dots Podcast is about lessons & stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs."
+          content="The Connecting Dots Podcast is about lessons and stories from founders and other people who go their own way: With my guests I connected the dots in their lives and jobs."
         />
       </Head>
       <SimpleLayout
