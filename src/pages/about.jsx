@@ -109,7 +109,17 @@ export default function About() {
             </ul>
           </div>
         </div>
+        <div className="mt-8 flex w-full justify-center pb-8">
+          <iframe
+            className="h-96 w-full"
+            src="https://youtube.com/embed/6x_e5zbnlRs"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
       </Container>
+
     </>
   )
 }
