@@ -61,6 +61,22 @@ function Photos() {
   )
 }
 
+function YouTubeEmbed() {
+  return (
+    <div className="mt-16 sm:mt-20 flex justify-center">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/6x_e5zbnlRs"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+    </div>
+  )
+}
+
 export default function Home({ articles }) {
   return (
     <>
@@ -100,6 +116,7 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
+      <YouTubeEmbed />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
