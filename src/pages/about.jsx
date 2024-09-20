@@ -56,9 +56,9 @@ export default function About() {
                   href="\projects"
                   class="text-teal-400 underline hover:no-underline"
                 >
-                  portfolio
+                  coding portfolio
                 </a>
-                .
+                . I'm also publishing videos about Vim, Neovim and JavaScript on <a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline">my YouTube coding channel</a>.
               </p>
               <p>
                 Though I&apos;m not just sitting at my laptop. My extroverted
@@ -75,7 +75,7 @@ export default function About() {
                   href="https://www.youtube.com/@reunionsmusic"
                   class="text-teal-400 underline hover:no-underline"
                 >
-                  YouTube channel
+                  live music YouTube channel
                 </a>
                 . There I post videos of concerts I&apos;ve been to.
               </p>
