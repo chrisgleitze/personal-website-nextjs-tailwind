@@ -97,7 +97,7 @@ export default function Home({ articles }) {
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             In my blog below I write about programming, podcasting and other
-            interests of mine.
+            interests of mine. I also publish coding videos on YouTube which you also find below.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
