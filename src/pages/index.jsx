@@ -96,9 +96,8 @@ export default function Home({ articles }) {
             a Frontend Engineer in Frankfurt, Germany.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            In my blog below I write about programming, podcasting and other
-            interests of mine. I also publish coding videos on YouTube which you also find below.
-          </p>
+            I publish coding videos on YouTube and write about programming, podcasting and other
+            interests of mine in my blog. You'll find both below.</p>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://github.com/chrisgleitze"
