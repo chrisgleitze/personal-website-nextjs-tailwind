@@ -110,7 +110,6 @@ export default function About() {
           </div>
         </div>
       </Container>
-
     </>
   )
 }
