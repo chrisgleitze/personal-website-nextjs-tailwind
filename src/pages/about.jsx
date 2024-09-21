@@ -109,16 +109,6 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <hr className="mx-auto my-4 h-1 w-48 rounded border-0 bg-gray-100 dark:bg-gray-700 md:my-10" />
-        <div className="mt-8 flex w-full center pb-8">
-          <iframe
-            className="h-96 w-full"
-            src="https://youtube.com/embed/6x_e5zbnlRs"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
       </Container>
 
     </>
