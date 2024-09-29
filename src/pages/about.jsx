@@ -58,7 +58,7 @@ export default function About() {
                 >
                   coding portfolio
                 </a>
-                . I&apos;m also publishing videos about Vim, Neovim and JavaScript on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline">my YouTube coding channel</a>.
+                . I&apos;m also publishing coding videos about on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline">my YouTube channel</a>.
               </p>
               <p>
                 Though I&apos;m not just sitting at my laptop. My extroverted
