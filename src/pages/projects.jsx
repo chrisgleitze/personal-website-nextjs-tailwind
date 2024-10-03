@@ -39,15 +39,6 @@ const projects = [
     logo: logoBootstrap,
   },
   {
-    name: 'Order Summary Component',
-    description: 'CSS',
-    link: {
-      href: 'https://github.com/chrisgleitze/order-summary-component',
-      label: 'github.com',
-    },
-    logo: logoCSS,
-  },
-  {
     name: 'Corporate Landing Page',
     description: 'Webflow, CSS',
     link: { href: '', label: 'cyclio.app (now defunct)' },
@@ -82,7 +73,7 @@ export default function Projects() {
           content="My Frontend Development Projects, mainly in React, nextJS, Tailwind."
         />
       </Head>
-      <SimpleLayout title="Frontend Projects">
+      <SimpleLayout title="Projects">
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
