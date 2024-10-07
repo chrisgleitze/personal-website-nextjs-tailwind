@@ -25,6 +25,7 @@ export function Footer() {
                 <NavLink href="/articles">Blog</NavLink>
                 <NavLink href="/podcast">Podcast</NavLink>
                 <NavLink href="/about">About</NavLink>
+                <NavLink href="/impressum">Impressum</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 Built with Next.js and Tailwind CSS. &copy;{' '}
