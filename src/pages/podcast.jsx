@@ -61,7 +61,7 @@ export default function Podcast() {
             children from a psychological and medical perspective. You&apos;ll
             find links to all podcast players{' '}
             <a
-              href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
+              href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast"
               class="text-teal-400 underline hover:no-underline"
               target="_blank" rel="noreferrer noopener"
             >
