@@ -58,7 +58,8 @@ export default function About() {
                 >
                   coding portfolio
                 </a>
-                . I&apos;m also publishing coding videos about on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline">my YouTube channel</a>.
+                . I&apos;m also publishing coding videos about on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline" target="_blank" rel="noreferrer noopener"
+                >my YouTube channel</a>.
               </p>
               <p>
                 Though I&apos;m not just sitting at my laptop. My extroverted
@@ -74,6 +75,7 @@ export default function About() {
                 <a
                   href="https://www.youtube.com/@reunionsmusic"
                   class="text-teal-400 underline hover:no-underline"
+                  target="_blank" rel="noreferrer noopener"
                 >
                   live music YouTube channel
                 </a>

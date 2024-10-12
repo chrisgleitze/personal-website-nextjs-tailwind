@@ -41,6 +41,7 @@ export default function Impressum() {
           <p className="pb-6">
             Die Europäische Kommission stellt eine Plattform zur Online Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr"
               class="text-teal-400 underline hover:no-underline"
+              target="_blank" rel="noreferrer noopener"
             >
               https://ec.europa.eu/consumers/odr
             </a>.
