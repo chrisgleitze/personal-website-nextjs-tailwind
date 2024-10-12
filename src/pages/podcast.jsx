@@ -63,6 +63,7 @@ export default function Podcast() {
             <a
               href="https://www.informationsportal-kinderwunsch.de/kiwu/kinderwunschzeit/podcast-kinderwunsch"
               class="text-teal-400 underline hover:no-underline"
+              target="_blank" rel="noreferrer noopener"
             >
               here
             </a>
