@@ -96,6 +96,7 @@ export default function About() {
                 icon={GitHubIcon}
                 className="mt-4"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 GitHub
               </SocialLink>
@@ -105,6 +106,7 @@ export default function About() {
                 icon={LinkedInIcon}
                 className="mt-4"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 LinkedIn
               </SocialLink>
