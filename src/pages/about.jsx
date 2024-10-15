@@ -58,7 +58,7 @@ export default function About() {
                 >
                   coding portfolio
                 </a>
-                . I&apos;m also publishing coding videos about on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline" target="_blank" rel="noreferrer noopener"
+                . I&apos;m also publishing coding videos on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline" target="_blank" rel="noreferrer noopener"
                 >my YouTube channel</a>.
               </p>
               <p>
@@ -82,9 +82,12 @@ export default function About() {
                 . There I post videos of concerts I&apos;ve been to.
               </p>
               <p>
-                Do you want to talk to me about programming, podcasting or
-                whatever else? Feel free to reach out to me on social media.
-                Looking forward to hearing from you!
+                Do you want to talk to me about programming or something else? Send me a mail to <a
+                  href="mailto:connectingdotscoding@gmail.com"
+                  class="text-teal-400 underline hover:no-underline"
+                >
+                  connectingdotscoding@gmail.com
+                </a>.
               </p>
             </div>
           </div>
