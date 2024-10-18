@@ -98,7 +98,6 @@ export default function About() {
                 aria-label="Follow on GitHub"
                 icon={GitHubIcon}
                 className="mt-4"
-                target="_blank"
                 rel="noreferrer noopener"
               >
                 GitHub
@@ -108,7 +107,6 @@ export default function About() {
                 aria-label="Follow on LinkedIn"
                 icon={LinkedInIcon}
                 className="mt-4"
-                target="_blank"
                 rel="noreferrer noopener"
               >
                 LinkedIn
