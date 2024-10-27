@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -23,14 +21,6 @@ function Article({ article }) {
       <Card.Description>{article.description}</Card.Description>
       <Card.Cta>Read article</Card.Cta>
     </Card>
-  )
-}
-
-function SocialLink({ icon: Icon, ...props }) {
-  return (
-    <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-    </Link>
   )
 }
 
@@ -98,20 +88,6 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I publish coding videos on YouTube and write about programming, podcasting and other
             interests of mine in my blog. You&apos;ll find both below.</p>
-          <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://github.com/chrisgleitze"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-              target="_blank"
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/chrisgleitze"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-              target="_blank"
-            />
-          </div>
         </div>
       </Container>
       <Photos />

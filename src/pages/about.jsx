@@ -4,7 +4,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
+import { GitHubIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -101,15 +101,6 @@ export default function About() {
                 rel="noreferrer noopener"
               >
                 GitHub
-              </SocialLink>
-              <SocialLink
-                href="https://www.linkedin.com/in/chrisgleitze"
-                aria-label="Follow on LinkedIn"
-                icon={LinkedInIcon}
-                className="mt-4"
-                rel="noreferrer noopener"
-              >
-                LinkedIn
               </SocialLink>
             </ul>
           </div>
