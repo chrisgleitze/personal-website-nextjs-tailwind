@@ -10,6 +10,7 @@ export default function Datenschutz() {
           name="description"
           content="Datenschutzerklärung"
         />
+        <meta name="robots" content="noindex" />
       </Head>
       <SimpleLayout
       >
