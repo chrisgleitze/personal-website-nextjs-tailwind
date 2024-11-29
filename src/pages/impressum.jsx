@@ -10,6 +10,7 @@ export default function Impressum() {
           name="description"
           content="Impressum"
         />
+        <meta name="robots" content="noindex" />
       </Head>
       <SimpleLayout
       >
