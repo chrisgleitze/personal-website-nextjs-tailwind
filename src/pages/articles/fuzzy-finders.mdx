@@ -1,0 +1,44 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Christian Gleitze',
+  date: '2024-12-08',
+  title: 'The Magic of Fuzzy Finders',
+  description:
+    'Supercharging your programming workflow with fuzzy finders.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+If you’re old enough to know life before a smartphone then you might know how people were looking for a location on a paper map. You unfold the map with your hands and try to navigate to the location with your eyes. Some developers are looking for files in their coding projects like that: They open the file tree viewer and navigate to the file they’re looking for with their eyes.
+
+Since the advent of smartphones people are fuzzy searching locations on Google Maps. They mostly don’t type in the exact location, e.g. the full restaurant name or even the full address. What they do is typing in “Starbu” and immediately all the Starbucks locations in their city show up as suggested locations. Then you click on the Starbucks location you’re looking for and the app jumps to the location right away.
+
+This is exactly how fuzzy searching for files in an IDE (Integrated Developer Environment) works. Fuzzy finders let you search for files, commands, or even bookmarks by typing just a few letters. You don’t need to get the exact name right—just hit a few keystrokes, and the fuzzy finder does the rest, giving you near-instant results.
+
+## Reducing cognitive overhead with quicker navigation
+
+What is the big advantage of using a fuzzy finder? You reduce your cognitive overhead by reaching what you need quicker than you would manually. That is a crucial point for your work as a programmer: **Save your limited daily cognitive capacity to work on the actual programming issues you try to solve!** These are things that take away from your cognitive capacity: Navigating to a folder, finding a command, looking for a bookmark in your browser or link in your browsing history. Use a fuzzy finder for all of that instead.
+
+## My Fuzzy Finder use cases
+
+1. Command-Line Fuzzy Finder: [fzf](https://github.com/junegunn/fzf)
+
+fzf is a command-line fuzzy finder for all kinds of purposes. It lets me search through files and directories faster than I ever could manually. With fzf, I type a few characters, hit enter, and I’m right where I need to be. I use it mainly for finding a command in my history or searching through directories to open a file directly.
+
+2. Neovim Fuzzy Finder: [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+
+I use the Neovim plugin Telescope to do all my in-editor searching. It’s a fuzzy finder designed specifically for Neovim and offers incredible flexibility and speed. Whether I’m jumping between files, searching for code snippets, or pulling up function definitions, it’s all just a few keystrokes away. See how I use Telescope in Neovim [in this reel on YouTube](https://youtube.com/shorts/DFFUJft-EFw). My main use cases:
+
+**File Search**: Quickly find and open files without losing my place in the editor.\
+**Symbol Search**: Instantly navigate to specific functions or variables across the project.\
+**Content Search**: Perform project-wide searches without ever leaving Neovim. It's a game-changer when I’m debugging or trying to refactor code.
+
+3. Browser Fuzzy Finder: [Vimium](https://vimium.github.io/)
+
+With Vimium you can use Chrome efficiently with just your keyboard. Everything you need like [clicking a button on a website](https://youtube.com/shorts/eG7baTfOFfk), changing to another open tab or opening a website from your browser’s history is just a keystroke away. How I use it:
+
+**Bookmark search**: Type a few characters and it finds the bookmark—even if you only vaguely remember what it’s called.\
+**Browser history search**: Jump directly to a website you’ve visited recently. You don’t need to remember the exact title. A close approximation is enough.
+
+There you have it—how I use fuzzy finders to keep my workflow lean and mean. If you haven’t tried them yet, I highly recommend starting with fzf for the command line or Telescope if you’re a Neovim user. And if you’re a fan of Vim-style keybindings in your browser, give Vimium a shot. You’ll be surprised by how much more fluid your workflow can become.
