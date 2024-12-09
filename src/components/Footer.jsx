@@ -53,7 +53,7 @@ export function Footer() {
 
               {/* Footer Text */}
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                Built with Next.js and Tailwind CSS. &copy;{' '}
+                &copy;{' '}
                 {new Date().getFullYear()} Christian Gleitze. All rights
                 reserved.
               </p>
