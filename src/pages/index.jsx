@@ -86,8 +86,8 @@ export default function Home({ articles }) {
             a Frontend Engineer in Frankfurt, Germany.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I publish coding videos on YouTube and write about programming, podcasting and other
-            interests of mine in my blog. You&apos;ll find both below.</p>
+            On YouTube I publish coding videos. In my blog I write about programming, podcasting and other
+            interests of mine. You&apos;ll find both below.</p>
         </div>
       </Container>
       <Photos />
