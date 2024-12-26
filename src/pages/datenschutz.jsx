@@ -58,9 +58,9 @@ export default function Datenschutz() {
             Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist:
           </p>
           <p className="pb-6">
-            Christian Gleitze
-            Ederstraße 14
-            60486 Frankfurt am Main
+            Christian Gleitze<br />
+            Ederstraße 14<br />
+            60486 Frankfurt am Main<br />
           </p>
           <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
             Cookies
