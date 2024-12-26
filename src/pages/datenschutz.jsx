@@ -59,6 +59,8 @@ export default function Datenschutz() {
           </p>
           <p className="pb-6">
             Christian Gleitze
+            Ederstraße 14
+            60486 Frankfurt am Main
           </p>
           <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
             Cookies

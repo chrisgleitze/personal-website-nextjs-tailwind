@@ -21,7 +21,8 @@ export default function Impressum() {
           <p className="pb-6">
             Angaben gemäß § 5 TMG<br />
             Christian Gleitze<br />
-            Franfurt am Main
+            Ederstraße 14
+            60486 Frankfurt am Main
           </p>
           <p className="pb-6 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
             Kontakt
