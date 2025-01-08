@@ -70,7 +70,7 @@ export default function Projects() {
         <title>Projects - Christian Gleitze</title>
         <meta
           name="description"
-          content="My Frontend Development Projects, mainly in React, nextJS, Tailwind."
+          content="My Software Development Projects, mainly using JavaScript (React, NextJS)."
         />
       </Head>
       <SimpleLayout title="Projects">
