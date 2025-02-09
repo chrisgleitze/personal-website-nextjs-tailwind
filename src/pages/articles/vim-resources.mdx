@@ -3,7 +3,7 @@ import { ArticleLayout } from '@/components/ArticleLayout'
 export const meta = {
   author: 'Christian Gleitze',
   date: '2024-06-23',
-  title: 'Cool Vim resources',
+  title: 'Cool Vim resoure',
   description:
     'Intermediate motions, faster navigation and the fighting one-eyed Kirby.',
 }
@@ -150,7 +150,11 @@ c2w : change next two words
 2ct<SPACE> : Change up To the 2nd space character
 2cf<SPACE> : same thing but grabs the 2nd space character too
 
-dw : delete a word
+dw : delete word
+daw : delete around word
+diw : delete inside word
+diW : delete whole "thing" around word
+dis : delete sentence
 d6w : delete 6 words
 dt> : delete till >
 di] : delete everything inside [ ]
@@ -163,6 +167,8 @@ dap : delete around paragraph
 s : delete one character or use cl or xi if s is used by Leap plugin in Neovim
 S : delete line and go into insert mode
 cc : delete line and go into insert mode
+
+Ctrl + p : predictive completion (word)
 
 dw : delete a word
 d6w : delete 6 words
