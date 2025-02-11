@@ -98,8 +98,8 @@ g, : jump to next change
 gg : jump to top of document
 G : jump to end of file
 
-* : find next occurrence
-# : find previous occurence
+* : find next occurrence for word under cursor
+# : find previous occurence for word under cursor
 
 CTRL + j to move down; "n", "<A-j>", ":m .+1<CR>=="
 CTRL + k to move up; "n", "<A-k>", ":m .+1<CR>=="
@@ -182,10 +182,6 @@ dap : delete around paragraph
 
 s : delete one character or use cl or xi if s is used by Leap plugin in Neovim
 
-:g/pattern/d - remove lines matching the pattern
-:g!/pattern/d - remove lines that do NOT match the pattern
-:v/pattern/d – Also removes lines that do not match the pattern
-
 cw : change until end of current word
 caw : change around the word (incl. whitespace)
 ciw : change inside the word (excl. whitespace)
@@ -249,6 +245,17 @@ cw : change word
 
 Multiple Cursors via plugin (github.com/mg979/vim-visual-multi)
 Ctrl + x : start multicursor and directly select all matches
+
+FIND AND REPLACE / SUBSTITUTION
+
+:g/pattern/d : remove lines matching the pattern
+:g!/pattern/d : remove lines that do NOT match the pattern
+:v/pattern/d : remove lines that do not match the pattern
+
+Ranges https://vim.fandom.com/wiki/Ranges
+:s/old/new/g   changes old to new in the current line
+:11,15s/old/new/g   changes lines 11 to 15 inclusive
+:%s/old/new/g   changes all lines
 ```
 
 This is a comment by ThePrimeagen on Reddit on how to get quicker at navigating with Vim:
