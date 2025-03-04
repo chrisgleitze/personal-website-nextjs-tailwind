@@ -32,6 +32,7 @@ x - cut text (similar to regular cut shortcut, Ctrl-x)
 d - delete text (works similar to cut)
 p - paste text
 u - undo
+
 w - jump by start of words. Essentially go to next word and land at the beginning.
 e - jump to end of words. Essentially go to next word and land at the end.
 b - jump backwards by words
@@ -45,7 +46,6 @@ $ - jump to end of line (same as $ in regex)
 :close - command to close current split
 z - Control the folds. Use "Z-Fold" to memorize.
 zo - open the fold
-
 zc - close the fold
 
 Objects:
@@ -55,7 +55,6 @@ s - sentence
 q - quotes
 b - brackets
 i - indention level
-
 W - white space
 
 Scopes:
@@ -68,7 +67,6 @@ yiW - copy between last and next white space
 yiw - yank inner word
 ciw - change (cut) inner word
 ciq - change inside quotes
-
 cib - change inside brackets
 dii - delete everything at current indention
 
@@ -100,8 +98,8 @@ G : jump to end of file
 * : find next occurrence for word under cursor
 # : find previous occurence for word under cursor
 
-CTRL + j to move down; "n", "<A-j>", ":m .+1<CR>=="
-CTRL + k to move up; "n", "<A-k>", ":m .+1<CR>=="
+Ctrl + j to move down; "n", "<A-j>", ":m .+1<CR>=="
+Ctrl + k to move up; "n", "<A-k>", ":m .+1<CR>=="
 
 Search for patterns:
 press /
@@ -139,7 +137,7 @@ D : delete from cursor until end of line
 c : cuts line
 C or c$ : like D but also goes into insert mode
 
-cc - change (replace) entire line
+cc : change (replace) entire line
 cw : change until end of current word
 caw : change around the word (incl. whitespace)
 ciw : change inside the word (excl. whitespace)
@@ -236,7 +234,7 @@ I : insert mode
 Esc : leave insert mode, realizes changes
 
 Multiple Cursors via plugin (github.com/mg979/vim-visual-multi)
-Ctrl + x : start multicursor and directly select all matches
+Ctrl + x : start multicursor and select matches with n, skip matches with q
 
 
 FIND AND REPLACE / SUBSTITUTION
