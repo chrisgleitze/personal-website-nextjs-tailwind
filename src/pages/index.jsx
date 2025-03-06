@@ -71,10 +71,10 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Christian Gleitze - Software Engineer</title>
+        <title>Christian Gleitze - Software Engineer & Podcaster</title>
         <meta
           name="description"
-          content="I’m Chris, a Software Engineer and podcaster based in Frankfurt, Germany."
+          content="I’m Chris, a Software Engineer and Podcaster based in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-9">
@@ -83,7 +83,7 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris,
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            a Software Engineer in Frankfurt, Germany.
+            a Software Engineer and Podcaster in Frankfurt, Germany.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             On YouTube I publish coding videos. In my blog I write about programming, podcasting and other
