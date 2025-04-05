@@ -53,7 +53,7 @@ function Photos() {
 
 function YouTubeEmbed() {
   return (
-    <div className="mt-16 sm:mt-20 flex justify-center">
+    <div className="mt-16 flex justify-center sm:mt-20">
       <iframe
         width="560"
         height="315"
@@ -86,8 +86,10 @@ export default function Home({ articles }) {
             a Software Engineer and Podcaster in Frankfurt, Germany.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            On YouTube I publish coding videos. In my blog I write about programming, podcasting and other
-            interests of mine. You&apos;ll find both below.</p>
+            On YouTube I publish coding videos. In my blog I write about
+            programming, podcasting and other interests of mine. You&apos;ll
+            find both below.
+          </p>
         </div>
       </Container>
       <Photos />
@@ -113,9 +115,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      articles: (await getAllArticles())
-        .slice(0, 8)
-        .map(({ component, ...meta }) => meta),
+      articles: (await getAllArticles()).map(({ component, ...meta }) => meta),
     },
   }
 }
