@@ -83,7 +83,7 @@ _ : jump to first character of the line (or use ^)
 $ : jump to the end of the line
 
 f" : move cursor forward to "
-% : when on a brace, % jumps to matching closing brace; do % again to jump back to opening brace
+% : when on a brace, jumps back and forth between open and closing braces
 
 Ctrl + f : move down a page
 Ctrl + b : move up a page
@@ -190,7 +190,12 @@ c2w : change next two words
 
 vaw : visually select word
 
-" move visual block selection up and down with Ctrl-j and Ctrl-k
+" move line up and down with Ctrl-k/j
+" in normal, insert and visual mode
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-j> <Esc>:m .+1<CR>==gi
+inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 
@@ -217,7 +222,6 @@ yy : copy a line
 
 cc : change a line ( change is delete and go in insert mode )
 cap : change a paragraph
-. : repeat last command
 f'ci'hello : _find the next ' then change everything inside ' for hello
 
 ddp : moves line below
@@ -228,6 +232,9 @@ R : replaces more than one character
 
 5i lorem : inserts lorem 5 times
 10gs : puts (neo)vim to sleep for 10 seconds
+
+Ctrl-a and Ctrl-x increases and decreases number of word under cursor
+e.g. image1.jpg becomes image2.jpg
 
 search with /
 /word.*
@@ -257,6 +264,13 @@ Ranges https://vim.fandom.com/wiki/Ranges
 :s/old/new/g   changes old to new in the current line
 :11,15s/old/new/g   changes lines 11 to 15 inclusive
 :%s/old/new/g   changes all lines
+
+:norm - run normal mode operations from command line
+:%norm - run normal mode operation on every line
+:2,9norm - run normal mode operation on lines 2-9
+
+e.g.:
+:%norm A; - adds semicolon to the end of every line
 ```
 
 This is a comment by ThePrimeagen on Reddit on how to get quicker at navigating with Vim:
