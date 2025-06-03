@@ -29,7 +29,6 @@ function Article({ article }) {
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
-
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
@@ -57,7 +56,7 @@ function Photos() {
 function GithubContributionGraph() {
   return (
     <div className="mt-10">
-      <h2 className="mb-2 text-xl font-semibold text-zinc-600 dark:text-zinc-400">
+      <h2 className="mb-2 text-lg font-semibold text-zinc-600 dark:text-zinc-400">
         Check out my coding projects in{' '}
         <a
           href="https://github.com/chrisgleitze"
