@@ -1,3 +1,6 @@
+import React from 'react'
+import GitHubCalendar from 'react-github-calendar'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import clsx from 'clsx'
@@ -51,6 +54,25 @@ function Photos() {
   )
 }
 
+function GithubContributionGraph() {
+  return (
+    <div className="mt-10">
+      <h2 className="mb-2 text-xl font-semibold text-zinc-600 dark:text-zinc-400">
+        Check out my coding projects in{' '}
+        <a
+          href="https://github.com/chrisgleitze"
+          class="text-teal-400 underline hover:no-underline"
+        >
+          my GitHub profile
+        </a>
+      </h2>
+      <div className="overflow-x-auto">
+        <GitHubCalendar username="chrisgleitze" />
+      </div>
+    </div>
+  )
+}
+
 function YouTubeEmbed() {
   return (
     <div className="mt-16 flex justify-center sm:mt-20">
@@ -90,6 +112,7 @@ export default function Home({ articles }) {
             programming, podcasting and other interests of mine. You&apos;ll
             find both below.
           </p>
+          <GithubContributionGraph />
         </div>
       </Container>
       <Photos />

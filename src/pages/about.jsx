@@ -49,17 +49,25 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                based in Frankfurt am Main, Germany. I program mainly with JavaScript,
-                TypeScript and ReactJS. If you&apos;re interested in that, then
-                make sure to check out my{' '}
+                based in Frankfurt am Main, Germany. I program mainly with
+                JavaScript, TypeScript and ReactJS. If you&apos;re interested in
+                that, then make sure to check out my{' '}
                 <a
                   href="\projects"
                   class="text-teal-400 underline hover:no-underline"
                 >
                   coding portfolio
                 </a>
-                . I&apos;m also publishing coding videos on {' '}<a href="https://www.youtube.com/@connectingdotscoding" class="text-teal-400 underline hover:no-underline" target="_blank" rel="noreferrer noopener"
-                >my YouTube channel</a>.
+                . I&apos;m also publishing coding videos on{' '}
+                <a
+                  href="https://www.youtube.com/@connectingdotscoding"
+                  class="text-teal-400 underline hover:no-underline"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  my YouTube channel
+                </a>
+                .
               </p>
               <p>
                 Though I&apos;m not just sitting at my laptop. My extroverted
@@ -75,19 +83,23 @@ export default function About() {
                 <a
                   href="https://www.youtube.com/@reunionsmusic"
                   class="text-teal-400 underline hover:no-underline"
-                  target="_blank" rel="noreferrer noopener"
+                  target="_blank"
+                  rel="noreferrer noopener"
                 >
                   live music YouTube channel
                 </a>
                 . There I post videos of concerts I&apos;ve been to.
               </p>
               <p>
-                Do you want to talk to me about programming or something else? Send me a mail to <a
+                Do you want to talk to me about programming or something else?
+                Send me a mail to{' '}
+                <a
                   href="mailto:connectingdotscoding@gmail.com"
                   class="text-teal-400 underline hover:no-underline"
                 >
                   connectingdotscoding@gmail.com
-                </a>.
+                </a>
+                .
               </p>
             </div>
           </div>
