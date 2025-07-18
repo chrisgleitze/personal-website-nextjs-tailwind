@@ -21,6 +21,7 @@ Vim cheat sheet
 GENERAL
 
 i - insert text
+[Esc] - go from insert (or any other mode) to normal mode or use Ctrl-c
 c - change
 d - delete
 a - append text
@@ -73,6 +74,10 @@ Copy:
 
 NAVIGATING
 
+W : jump to the start of next word, contains punctuation, so jumps to before next whitespace
+E : jump the end of next word, contains punctuation, so jumps to before next whitespace
+B : jump to beginning of last word, contains punctuation
+
 4j : move 4 lines down
 4k : move 4 lines up
 4w : move 4 words forward
@@ -82,13 +87,14 @@ NAVIGATING
 _ : jump to first character of the line (or use ^)
 $ : jump to the end of the line
 
-f" : move cursor forward to "
+{ : jump to last paragraph
+} : jump to next paragraph
+
+f" : move cursor forward to ", repeat with ;
 % : when on a brace, jumps back and forth between open and closing braces
 
 Ctrl + f : move down a page
 Ctrl + b : move up a page
-Ctrl + o : jump previous (older) location
-Ctrl + i : jump to next (newer) location
 
 zz = shift current line to middle of screen
 zt = shift current line to top of screen
@@ -96,6 +102,7 @@ zb = shift current line to bottom of screen
 
 g; : jump to last change
 g, : jump to next change
+gi : go into insert mode at the end of the last insert you did
 gv : jump to last visual selection
 (in visual mode) o : jump to beginning or end of visual selection
 gg : jump to top of document
@@ -104,12 +111,23 @@ G : jump to end of file
 * : find next occurrence for word under cursor
 # : find previous occurence for word under cursor
 
-Search for patterns:
+Jump List
+:jumps : open jump list
+Ctrl + i : jump forwards through jump list
+Ctrl + o : jump backwards through jump list
+
+Change List
+:changes : open change list
+g; : jump back to previous change
+g, : jump back to next change
+
+Search:
 press /
 enter pattern
 press Enter to search
 n : find next occurrence
 N : find previous occurrence
+do the same type of search backwards with ?
 
 :tabnew : open new buffer
 :tabp : go to previous tab
@@ -148,7 +166,8 @@ go to previous buffer with #
 EDITING
 
 y : copy
-P : paste (uppercase)
+p : paste after cursor
+P : paste (uppercase) before the cursor
 d : delete
 D : delete from cursor until end of line
 c : cuts line
@@ -160,6 +179,8 @@ caw : change around the word (incl. whitespace)
 ciw : change inside the word (excl. whitespace)
 ciW : change the whole "thing" you're in
 c2w : change next two words
+cib : change in parentheses (round brackets)
+ciB : change in curly brackets
 5cl : change next 5 characters
 2ct<SPACE> : change up to the 2nd space character
 2cf<SPACE> : same thing but grabs the 2nd space character too
