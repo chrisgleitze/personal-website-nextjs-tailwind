@@ -84,12 +84,47 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris,
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            a Software Engineer in Frankfurt, Germany.
+            a <span className="text-normal font-bold">Software Engineer</span>{' '}
+            in Frankfurt, Germany. I{' '}
+            <span className="text-normal font-bold">
+              develop websites and apps
+            </span>
+            , in the past for clients like DZ Bank and startups.
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            I work with JavaScript, TypeScript, React, Content Management
+            Systems (like Adobe Experience Manager, WordPress etc.), Linux and
+            more. In{' '}
+            <a
+              href="\projects"
+              class="text-teal-400 underline hover:no-underline"
+            >
+              my coding portfolio
+            </a>{' '}
+            and on{' '}
+            <a
+              href="https://github.com/chrisgleitze"
+              class="text-teal-400 underline hover:no-underline"
+            >
+              my GitHub profile
+            </a>{' '}
+            you find some of my projects.{' '}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             On YouTube I publish coding videos. In my blog I write about
             programming, podcasting and other interests of mine. You&apos;ll
-            find both below.
+            find both below.{' '}
+          </p>
+
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            You can get in touch with me by sending an e-mail to{' '}
+            <a
+              href="mailto:connectingdotscoding@gmail.com"
+              class="text-teal-400 underline hover:no-underline"
+            >
+              connectingdotscoding@gmail.com
+            </a>
+            .
           </p>
         </div>
       </Container>
