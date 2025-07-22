@@ -55,14 +55,14 @@ export default function About() {
                 that, then make sure to check out my{' '}
                 <a
                   href="\projects"
-                  class="text-teal-400 underline hover:no-underline"
+                  className="text-teal-400 underline hover:no-underline"
                 >
                   coding portfolio
                 </a>
                 . I&apos;m also publishing coding videos on{' '}
                 <a
                   href="https://www.youtube.com/@connectingdotscoding"
-                  class="text-teal-400 underline hover:no-underline"
+                  className="text-teal-400 underline hover:no-underline"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -75,7 +75,7 @@ export default function About() {
                 part comes out in my conversational podcast. For my{' '}
                 <a
                   href="\podcast"
-                  class="text-teal-400 underline hover:no-underline"
+                  className="text-teal-400 underline hover:no-underline"
                 >
                   podcast
                 </a>{' '}
@@ -83,7 +83,7 @@ export default function About() {
                 lessons and stories. And if you like music, you can check out my{' '}
                 <a
                   href="https://www.youtube.com/@reunionsmusic"
-                  class="text-teal-400 underline hover:no-underline"
+                  className="text-teal-400 underline hover:no-underline"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

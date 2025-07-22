@@ -98,14 +98,14 @@ export default function Home({ articles }) {
             more. In{' '}
             <a
               href="\projects"
-              class="text-teal-400 underline hover:no-underline"
+              className="text-teal-400 underline hover:no-underline"
             >
               my coding portfolio
             </a>{' '}
             and on{' '}
             <a
               href="https://github.com/chrisgleitze"
-              class="text-teal-400 underline hover:no-underline"
+              className="text-teal-400 underline hover:no-underline"
             >
               my GitHub profile
             </a>{' '}
