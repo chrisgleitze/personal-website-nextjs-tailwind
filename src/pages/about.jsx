@@ -6,6 +6,7 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { GitHubIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import EmailObfuscated from '@/components/EmailObfuscated'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -91,15 +92,8 @@ export default function About() {
                 . There I post videos of concerts I&apos;ve been to.
               </p>
               <p>
-                Do you want to talk to me about programming or something else?
-                Send me a mail to{' '}
-                <a
-                  href="mailto:connectingdotscoding@gmail.com"
-                  class="text-teal-400 underline hover:no-underline"
-                >
-                  connectingdotscoding@gmail.com
-                </a>
-                .
+                Get in touch with me regarding any of the above topics by
+                sending an e-mail to <EmailObfuscated />.
               </p>
             </div>
           </div>
