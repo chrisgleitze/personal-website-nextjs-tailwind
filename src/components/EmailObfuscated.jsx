@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 
 export default function EmailObfuscated() {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('')
 
   useEffect(() => {
     // Obfuscate here however you like – this is a simple split
-    const user = "connectingdotscoding";
-    const domain = "gmail.com";
-    setEmail(`${user}@${domain}`);
-  }, []);
+    const user = 'connectingdotscoding'
+    const domain = 'gmail.com'
+    setEmail(`${user}@${domain}`)
+  }, [])
 
   return (
     <>
@@ -20,10 +20,10 @@ export default function EmailObfuscated() {
         <span>Loading email...</span>
       )}
       <noscript>
-        <span className="text-gray-500 italic">
+        <span className="italic text-gray-500">
           Email hidden for spam protection. Please enable JavaScript to view.
         </span>
       </noscript>
     </>
-  );
+  )
 }
