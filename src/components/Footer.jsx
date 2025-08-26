@@ -40,8 +40,9 @@ export function Footer() {
 
               {/* Navigation Links */}
               <div
-                className={`${isMenuOpen ? 'flex' : 'hidden'
-                  } flex-col items-center gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200 sm:flex sm:flex-row`}
+                className={`${
+                  isMenuOpen ? 'flex' : 'hidden'
+                } flex-col items-center gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200 sm:flex sm:flex-row`}
               >
                 <NavLink href="/projects">Projects</NavLink>
                 <NavLink href="/articles">Blog</NavLink>
@@ -53,8 +54,7 @@ export function Footer() {
 
               {/* Footer Text */}
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy;{' '}
-                {new Date().getFullYear()} Christian Gleitze. All rights
+                &copy; {new Date().getFullYear()} Christian Gleitze. All rights
                 reserved.
               </p>
             </div>
