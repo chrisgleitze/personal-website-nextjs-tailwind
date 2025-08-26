@@ -25,7 +25,8 @@ i - insert text
 (insert mode) Ctrl + o : go from insert mode to normal mode for one command, then back to insert mode
 c - change
 d - delete
-a - append text
+r - replace one character
+a - go into insert mode after character under cursor
 y - yank (copy) text
 x - cut text (similar to regular cut shortcut, Ctrl-x)
 d - delete text (works similar to cut)
@@ -37,6 +38,7 @@ e - jump to end of words
 b - jump backwards by words
 $ - jump to end of line (same as $ in regex)
 ^ - jump to first non-space character of the line (similar to ^ in regex)
+_ - jump to first non-space character of the line
 0 - go to beginning of line
 >> - Shift text right
 << - Shift text left
@@ -200,25 +202,25 @@ dd : delete whole line
 4dd : delete 4 lines
 dip : delete everything in paragraph
 dap : delete around paragraph
-/[text] : deletes up to next occurrence of text
+d/er : deletes up to next occurrence of er
 
-s : delete one character or use cl or xi if s is used by Leap plugin in Neovim
+s : delete one character
 S : delete line and go into insert mode
 cc : delete line and go into insert mode
+
+:r OR :read : paste content of a file into current buffer, e.g.:
+:read global/collection.js : pastes content of collection.js into current buffer
+:r ! [shell command] : execute shell command and paste output into current buffer
+:r ! ls : lists output of ls into the buffer,
+so that's names of files and directories of current folder
+
+vaw : visually select word
+vip : visually select paragraph
 
 (insert mode) ctrl + t : indent line
 (insert mode) ctrl + d : deindent line
 
 Ctrl + p : predictive completion (word)
-
-cw : change until end of current word
-caw : change around the word (incl. whitespace)
-ciw : change inside the word (excl. whitespace)
-ciW : change the whole "thing" you're in
-c2w : change next two words
-
-vaw : visually select word
-vip : visually select paragraph
 
 " move line up and down with Ctrl-k/j
 " in normal, insert and visual mode
