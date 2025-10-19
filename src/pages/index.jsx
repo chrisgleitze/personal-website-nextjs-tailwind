@@ -102,7 +102,7 @@ export default function Home({ articles }) {
             >
               my coding portfolio
             </a>{' '}
-            and on{' '}
+            and on
             <a
               href="https://github.com/chrisgleitze"
               className="text-teal-400 underline hover:no-underline"
@@ -112,9 +112,14 @@ export default function Home({ articles }) {
             you find some of my projects.{' '}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            On YouTube I publish coding videos. In my blog I write about
-            programming, podcasting and other interests of mine. You&apos;ll
-            find both below.{' '}
+            <a
+              href="https://www.youtube.com/@connectingdotscoding"
+              className="text-teal-400 underline hover:no-underline"
+            >
+              On YouTube
+            </a>{' '}
+            I publish coding videos. In my blog I write about programming,
+            podcasting and other interests of mine. You&apos;ll find both below.{' '}
           </p>
 
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
