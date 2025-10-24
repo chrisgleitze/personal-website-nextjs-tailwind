@@ -102,7 +102,7 @@ export default function Home({ articles }) {
             >
               my coding portfolio
             </a>{' '}
-            and on
+            and on{' '}
             <a
               href="https://github.com/chrisgleitze"
               className="text-teal-400 underline hover:no-underline"
