@@ -5,10 +5,10 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoNextJS from '@/images/logos/nextjs.svg'
 import logoBootstrap from '@/images/logos/bootstrap.svg'
-import logoCSS from '@/images/logos/css.svg'
 import logoWebflow from '@/images/logos/webflow.svg'
 import logoReact from '@/images/logos/react.svg'
 import logoWordPress from '@/images/logos/wordpress.svg'
+import logoNeovim from '@/images/logos/neovim.svg'
 
 const projects = [
   {
@@ -19,6 +19,15 @@ const projects = [
       label: 'github.com',
     },
     logo: logoNextJS,
+  },
+  {
+    name: 'my Neovim configuration',
+    description: 'Lua, Vimscript',
+    link: {
+      href: 'https://github.com/chrisgleitze/init.lua',
+      label: 'github.com',
+    },
+    logo: logoNeovim,
   },
   {
     name: 'E-Commerce App',
