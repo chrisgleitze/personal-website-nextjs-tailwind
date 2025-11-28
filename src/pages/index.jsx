@@ -94,7 +94,7 @@ export default function Home({ articles }) {
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I work with JavaScript, TypeScript, React, Content Management
-            Systems (like Adobe Experience Manager, WordPress etc.), Linux and
+            Systems (like Adobe Experience Manager), Linux and
             more. In{' '}
             <a
               href="\projects"
