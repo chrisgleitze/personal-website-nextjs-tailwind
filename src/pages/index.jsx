@@ -6,11 +6,11 @@ import clsx from 'clsx'
 
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import image1 from '@/images/photos/image-1.jpg'
+import image1 from '@/images/photos/image-1.jpeg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpeg'
+import image5 from '@/images/photos/image-5.jpg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import EmailObfuscated from '@/components/EmailObfuscated'
@@ -94,8 +94,7 @@ export default function Home({ articles }) {
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I work with JavaScript, TypeScript, React, Content Management
-            Systems (like Adobe Experience Manager), Linux and
-            more. In{' '}
+            Systems (like Adobe Experience Manager), Linux and more. In{' '}
             <a
               href="\projects"
               className="text-teal-400 underline hover:no-underline"
