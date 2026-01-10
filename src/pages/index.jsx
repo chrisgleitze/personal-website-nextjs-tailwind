@@ -37,7 +37,7 @@ function Photos() {
             key={image.src}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
-              rotations[imageIndex % rotations.length]
+              rotations[imageIndex % rotations.length],
             )}
           >
             <Image
@@ -133,7 +133,10 @@ export default function Home({ articles }) {
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
-              <Article key={article.slug} article={article} />
+              <Article
+                key={article.slug}
+                article={article}
+              />
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24"></div>
