@@ -94,7 +94,7 @@ export default function About() {
               </p>
               <p>
                 Get in touch with me regarding any of the above topics by
-                sending an e-mail to <EmailObfuscated />.
+                sending an e-mail to: <EmailObfuscated />
               </p>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                 <VisitorCount />

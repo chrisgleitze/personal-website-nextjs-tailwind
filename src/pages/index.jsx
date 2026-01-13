@@ -123,8 +123,8 @@ export default function Home({ articles }) {
           </p>
 
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            You can get in touch with me by sending an e-mail to{' '}
-            <EmailObfuscated />.
+            You can get in touch with me by sending an e-mail to:{' '}
+            <EmailObfuscated />
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             <VisitorCount />
