@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import { GitHubIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 import EmailObfuscated from '@/components/EmailObfuscated'
+import VisitorCount from '@/components/VisitorCount'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -94,6 +95,9 @@ export default function About() {
               <p>
                 Get in touch with me regarding any of the above topics by
                 sending an e-mail to <EmailObfuscated />.
+              </p>
+              <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                <VisitorCount />
               </p>
             </div>
           </div>
