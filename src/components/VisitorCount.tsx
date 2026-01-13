@@ -18,7 +18,8 @@ export default function VisitorCount() {
 
   return (
     <span>
-      Page views of this website since 01/2026: {count.toLocaleString('de-DE')}
+      Page views of this website since 2026-01-13:{' '}
+      {count.toLocaleString('de-DE')}
     </span>
   )
 }
