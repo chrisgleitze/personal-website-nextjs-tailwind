@@ -7,6 +7,8 @@ import { Header } from '@/components/Header'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
+import Script from 'next/script'
+
 function usePrevious(value) {
   let ref = useRef()
 
@@ -24,15 +26,20 @@ export default function App({ Component, pageProps, router }) {
     <>
       <Head>
         {/* Google Tag Manager (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7F9GFP91BK"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-7F9GFP91BK"
+        />
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-7F9GFP91BK');
-          `
-        }} />
+          `,
+          }}
+        />
       </Head>
       <div className="fixed inset-0 flex justify-center sm:px-8">
         <div className="flex w-full max-w-7xl lg:px-8">
@@ -42,11 +49,13 @@ export default function App({ Component, pageProps, router }) {
       <div className="relative">
         <Header />
         <main>
-          <Component previousPathname={previousPathname} {...pageProps} />
+          <Component
+            previousPathname={previousPathname}
+            {...pageProps}
+          />
         </main>
         <Footer />
       </div>
     </>
   )
 }
-
