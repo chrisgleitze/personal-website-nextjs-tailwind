@@ -86,16 +86,24 @@ export default function Home({ articles }) {
             Hi! I&apos;m Chris,
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            a <span className="text-normal font-bold">Software Engineer</span>{' '}
+            a{' '}
+            <span className="text-normal font-bold">
+              Full-Stack Software Engineer
+            </span>{' '}
             in Frankfurt, Germany. I{' '}
             <span className="text-normal font-bold">
               develop websites and apps
             </span>
-            , in the past for clients like DZ Bank and startups.
+            , in the past for clients like DZ Bank, startups like Lofino and
+            other companies.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I work with JavaScript, TypeScript, React, Content Management
-            Systems (like Adobe Experience Manager), Linux and more. In{' '}
+            For <span className="text-normal font-bold">Frontend</span> work I
+            use JavaScript, TypeScript and React, for{' '}
+            <span className="text-normal font-bold">Backend</span> work PHP and
+            Java. I also have extensive experience with Content Management
+            Systems (like Adobe Experience Manager), Linux and coding tools like
+            Vim/Neovim. In{' '}
             <a
               href="\projects"
               className="text-teal-400 underline hover:no-underline"
@@ -121,7 +129,6 @@ export default function Home({ articles }) {
             I publish coding videos. In my blog I write about programming,
             podcasting and other interests of mine. You&apos;ll find both below.{' '}
           </p>
-
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             You can get in touch with me by sending an e-mail to:{' '}
             <EmailObfuscated />
