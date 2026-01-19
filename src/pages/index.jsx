@@ -14,7 +14,6 @@ import image5 from '@/images/photos/image-5.jpg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import EmailObfuscated from '@/components/EmailObfuscated'
-import VisitorCount from '@/components/VisitorCount'
 
 function Article({ article }) {
   return (
@@ -92,7 +91,7 @@ export default function Home({ articles }) {
             </span>{' '}
             in Frankfurt, Germany. I{' '}
             <span className="text-normal font-bold">
-              develop websites and apps
+              develop apps, websites and other software
             </span>
             , in the past for clients like DZ Bank, startups like Lofino and
             other companies.
@@ -132,9 +131,6 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             You can get in touch with me by sending an e-mail to:{' '}
             <EmailObfuscated />
-          </p>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            <VisitorCount />
           </p>
         </div>
       </Container>
