@@ -99,10 +99,10 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             For <span className="text-normal font-bold">Frontend</span> work I
             use JavaScript, TypeScript and React, for{' '}
-            <span className="text-normal font-bold">Backend</span> work PHP and
-            Java. I also have extensive experience with Content Management
-            Systems (like Adobe Experience Manager), Linux and coding tools like
-            Vim/Neovim. In{' '}
+            <span className="text-normal font-bold">Backend</span> work PHP. I
+            also have extensive experience with Content Management Systems (like
+            Adobe Experience Manager), Linux and coding tools like Vim/Neovim.
+            In{' '}
             <a
               href="\projects"
               className="text-teal-400 underline hover:no-underline"
