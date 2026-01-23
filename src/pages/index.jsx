@@ -125,7 +125,7 @@ export default function Home({ articles }) {
             >
               On YouTube
             </a>{' '}
-            I publish coding videos. In my blog I write about programming,
+            I publish coding videos. In my blog I write about AI, programming,
             podcasting and other interests of mine. You&apos;ll find both below.{' '}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
