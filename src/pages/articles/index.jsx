@@ -29,7 +29,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout
         title="Blog"
-        intro="My thoughts on AI, programming, podcasting and much more. I love writing, so I don't write with the help of AI."
+        intro="My thoughts on AI, programming, podcasting and much more. I don't use AI to write my texts because I love writing and I want my thoughts on here to be as authentically mine as possible."
       >
         <div>
           <div className="flex max-w-3xl flex-col space-y-16">
