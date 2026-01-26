@@ -46,12 +46,12 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hey! I&apos;m Chris, a Software Engineer
+              Hey! I&apos;m Chris, a Full-Stack Software Engineer
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                based in Frankfurt am Main, Germany. I program mainly with
-                JavaScript, TypeScript and ReactJS. If you&apos;re interested in
+                based in Frankfurt am Main, Germany. I program with JavaScript,
+                TypeScript, ReactJS, PHP and more. If you&apos;re interested in
                 that, then make sure to check out my{' '}
                 <a
                   href="\projects"
