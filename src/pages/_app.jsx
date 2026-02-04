@@ -8,7 +8,7 @@ import { Header } from '@/components/Header'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
-const GA_ID = 'G-7F9GFP91BK'
+// const GA_ID = 'G-7F9GFP91BK'
 
 function usePrevious(value) {
   let ref = useRef()
@@ -48,7 +48,7 @@ export default function App({ Component, pageProps, router }) {
       {/* Google Analytics (GA4) */}
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-7F9GFP91BK`}
       />
 
       <Script
@@ -59,7 +59,7 @@ export default function App({ Component, pageProps, router }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${GA_ID}', {
+          gtag('config', 'G-7F9GFP91BK', {
             anonymize_ip: true,
           });
         `}
