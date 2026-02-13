@@ -1,0 +1,10 @@
+name = "visitor-counter"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "STATS"
+id = "b5b858013d9b43f8b2befac72cc559b1"
+
+[triggers]
+routes = ["christiangleitze.com/api/stats"]

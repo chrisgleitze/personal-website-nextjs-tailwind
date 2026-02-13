@@ -14,6 +14,7 @@ import image5 from '@/images/photos/image-5.jpg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import EmailObfuscated from '@/components/EmailObfuscated'
+import { useVisitorStats } from '@/lib/useVisitorStats'
 
 function Article({ article }) {
   return (
@@ -70,13 +71,15 @@ function YouTubeEmbed() {
 }
 
 export default function Home({ articles }) {
+  const stats = useVisitorStats()
+
   return (
     <>
       <Head>
         <title>Christian Gleitze - Software Engineer</title>
         <meta
           name="description"
-          content="I’m Chris, a Software Engineer based in Frankfurt, Germany."
+          content="I'm Chris, a Software Engineer based in Frankfurt, Germany."
         />
       </Head>
       <Container className="mt-9">
@@ -132,6 +135,12 @@ export default function Home({ articles }) {
             You can get in touch with me by sending an e-mail to:{' '}
             <EmailObfuscated />
           </p>
+          {stats && (
+            <p className="mt-6 text-base font-medium text-zinc-400 dark:text-zinc-500">
+              visitors: {stats.uniqueVisitors.toLocaleString()} &middot; page
+              views: {stats.totalViews.toLocaleString()}
+            </p>
+          )}
         </div>
       </Container>
       <Photos />

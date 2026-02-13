@@ -7,6 +7,7 @@ import { Container } from '@/components/Container'
 import { GitHubIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 import EmailObfuscated from '@/components/EmailObfuscated'
+import { useVisitorStats } from '@/lib/useVisitorStats'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -23,6 +24,8 @@ function SocialLink({ className, href, children, icon: Icon }) {
 }
 
 export default function About() {
+  const stats = useVisitorStats()
+
   return (
     <>
       <Head>
@@ -95,6 +98,12 @@ export default function About() {
                 Get in touch with me regarding any of the above topics by
                 sending an e-mail to: <EmailObfuscated />
               </p>
+              {stats && (
+                <p className="text-base font-medium text-zinc-400 dark:text-zinc-500">
+                  visitors: {stats.uniqueVisitors.toLocaleString()} &middot;
+                  page views: {stats.totalViews.toLocaleString()}
+                </p>
+              )}
             </div>
           </div>
           <div className="lg:pl-20">
