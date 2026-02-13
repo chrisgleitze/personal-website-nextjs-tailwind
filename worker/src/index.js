@@ -2,6 +2,7 @@ const ZONE_ID = 'f21cde80e2ab02cbb490e6a5d9540131'
 const START_DATE = '2026-01-13'
 const ALLOWED_ORIGINS = [
   'https://christiangleitze.com',
+  'https://www.christiangleitze.com',
   'http://localhost:3000',
 ]
 
