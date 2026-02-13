@@ -101,7 +101,8 @@ export default function About() {
               {stats && (
                 <p className="text-base font-medium text-zinc-400 dark:text-zinc-500">
                   visitors: {stats.uniqueVisitors.toLocaleString()} &middot;
-                  page views: {stats.totalViews.toLocaleString()}
+                  page views: {stats.totalViews.toLocaleString()} (since
+                  2026-01-13)
                 </p>
               )}
             </div>
