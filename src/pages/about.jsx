@@ -100,8 +100,8 @@ export default function About() {
               </p>
               {stats && (
                 <p className="text-base font-medium text-zinc-400 dark:text-zinc-500">
-                  page views: {stats.pageViews.toLocaleString()} (since
-                  2026-01-13 on the whole website)
+                  page views: {stats.pageViews.toLocaleString()}{' '}
+                  <span className="font-normal">(since 2026-01-13 on the whole website)</span>
                 </p>
               )}
             </div>
