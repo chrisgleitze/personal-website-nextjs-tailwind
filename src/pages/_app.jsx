@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import Script from 'next/script'
 
 import '@/styles/tailwind.css'
 import 'focus-visible'
@@ -22,22 +23,24 @@ export default function App({ Component, pageProps, router }) {
   return (
     <>
       <Head>
-        {/* Google Tag Manager (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-7F9GFP91BK"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+        <title>Christian Gleitze</title>
+      </Head>
+
+      {/* Google Tag Manager (gtag.js) */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-7F9GFP91BK"
+      ></Script>
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-7F9GFP91BK');
           `,
-          }}
-        />
-      </Head>
+        }}
+      />
 
       {/* Background frame */}
       <div className="fixed inset-0 flex justify-center sm:px-8">
