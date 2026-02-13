@@ -137,7 +137,8 @@ export default function Home({ articles }) {
           </p>
           {stats && (
             <p className="mt-6 text-base font-medium text-zinc-400 dark:text-zinc-500">
-              page views: {stats.pageViews.toLocaleString()} (since 2026-01-13)
+              page views: {stats.pageViews.toLocaleString()} (since 2026-01-13
+              on the whole website)
             </p>
           )}
         </div>
