@@ -3,6 +3,10 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 const videos = [
   {
+    id: 'j2jA5kDcrnM',
+    title: 'practicing touch typing (and some Vim motions)',
+  },
+  {
     id: 'VJWmP8bXt3o',
     title: 'monkey types on moonlander keyboard',
   },
