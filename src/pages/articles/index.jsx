@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import Head from 'next/head'
 
 import { Card } from '@/components/Card'
+import { CategoryFilter } from '@/components/CategoryFilter'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { getAllArticles } from '@/lib/getAllArticles'
 
@@ -18,6 +20,13 @@ function Article({ article }) {
 }
 
 export default function ArticlesIndex({ articles }) {
+  const [activeCategory, setActiveCategory] = useState('All')
+
+  const filteredArticles =
+    activeCategory === 'All'
+      ? articles
+      : articles.filter((article) => article.category === activeCategory)
+
   return (
     <>
       <Head>
@@ -32,8 +41,12 @@ export default function ArticlesIndex({ articles }) {
         intro="My thoughts on AI, programming, podcasting and much more. I don't use AI to write my texts because I love writing and I want my thoughts on here to be as authentically mine as possible."
       >
         <div>
-          <div className="flex max-w-3xl flex-col space-y-16">
-            {articles.map((article) => (
+          <CategoryFilter
+            activeCategory={activeCategory}
+            onCategoryChange={setActiveCategory}
+          />
+          <div className="mt-12 flex max-w-3xl flex-col space-y-16">
+            {filteredArticles.map((article) => (
               <Article
                 key={article.slug}
                 article={article}

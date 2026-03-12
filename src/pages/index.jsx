@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Head from 'next/head'
 import Image from 'next/image'
 import clsx from 'clsx'
 
 import { Card } from '@/components/Card'
+import { CategoryFilter } from '@/components/CategoryFilter'
 import { Container } from '@/components/Container'
 import image1 from '@/images/photos/image-1.jpeg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -71,7 +72,13 @@ function YouTubeEmbed() {
 }
 
 export default function Home({ articles }) {
+  const [activeCategory, setActiveCategory] = useState('All')
   const stats = useVisitorStats()
+
+  const filteredArticles =
+    activeCategory === 'All'
+      ? articles
+      : articles.filter((article) => article.category === activeCategory)
 
   return (
     <>
@@ -148,9 +155,13 @@ export default function Home({ articles }) {
       <Photos />
       <YouTubeEmbed />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
+        <CategoryFilter
+          activeCategory={activeCategory}
+          onCategoryChange={setActiveCategory}
+        />
+        <div className="mt-16 mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
-            {articles.map((article) => (
+            {filteredArticles.map((article) => (
               <Article
                 key={article.slug}
                 article={article}
