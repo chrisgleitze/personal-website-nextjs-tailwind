@@ -78,7 +78,11 @@ export default function Home({ articles }) {
   const filteredArticles =
     activeCategory === 'All'
       ? articles
-      : articles.filter((article) => article.category === activeCategory)
+      : articles.filter((article) =>
+          Array.isArray(article.category)
+            ? article.category.includes(activeCategory)
+            : article.category === activeCategory,
+        )
 
   return (
     <>
@@ -104,15 +108,15 @@ export default function Home({ articles }) {
               develop apps, websites and other software
             </span>
             , in the past for clients like DZ Bank, startups like Lofino and
-            other companies.
+            more.
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             For <span className="text-normal font-bold">Frontend</span> work I
             use JavaScript, TypeScript and React, for{' '}
-            <span className="text-normal font-bold">Backend</span> work PHP. I
-            also have extensive experience with Content Management Systems (like
-            Adobe Experience Manager), Linux and coding tools like Vim/Neovim.
-            In{' '}
+            <span className="text-normal font-bold">Backend</span> work Java and
+            PHP. I also have extensive experience with Content Management
+            Systems (like Adobe Experience Manager), Linux and coding tools like
+            Neovim. In{' '}
             <a
               href="\projects"
               className="text-teal-400 underline hover:no-underline"
@@ -159,7 +163,7 @@ export default function Home({ articles }) {
           activeCategory={activeCategory}
           onCategoryChange={setActiveCategory}
         />
-        <div className="mt-16 mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
+        <div className="mx-auto mt-16 grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {filteredArticles.map((article) => (
               <Article

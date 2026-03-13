@@ -25,7 +25,11 @@ export default function ArticlesIndex({ articles }) {
   const filteredArticles =
     activeCategory === 'All'
       ? articles
-      : articles.filter((article) => article.category === activeCategory)
+      : articles.filter((article) =>
+          Array.isArray(article.category)
+            ? article.category.includes(activeCategory)
+            : article.category === activeCategory
+        )
 
   return (
     <>
