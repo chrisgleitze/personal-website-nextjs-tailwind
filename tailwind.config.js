@@ -57,7 +57,7 @@ module.exports = {
           '--tw-prose-bold': theme('colors.zinc.900'),
           '--tw-prose-counters': theme('colors.zinc.900'),
           '--tw-prose-bullets': theme('colors.zinc.900'),
-          '--tw-prose-hr': theme('colors.zinc.100'),
+          '--tw-prose-hr': theme('colors.zinc.300'),
           '--tw-prose-quote-borders': theme('colors.zinc.200'),
           '--tw-prose-captions': theme('colors.zinc.400'),
           '--tw-prose-code': theme('colors.zinc.700'),
@@ -77,7 +77,7 @@ module.exports = {
           '--tw-prose-invert-bold': theme('colors.zinc.200'),
           '--tw-prose-invert-counters': theme('colors.zinc.200'),
           '--tw-prose-invert-bullets': theme('colors.zinc.200'),
-          '--tw-prose-invert-hr': theme('colors.zinc.700 / 0.4'),
+          '--tw-prose-invert-hr': theme('colors.zinc.500'),
           '--tw-prose-invert-quote-borders': theme('colors.zinc.500'),
           '--tw-prose-invert-captions': theme('colors.zinc.500'),
           '--tw-prose-invert-code': theme('colors.zinc.300'),
@@ -238,14 +238,13 @@ module.exports = {
 
           // Horizontal rules
           hr: {
-            marginTop: theme('spacing.20'),
-            marginBottom: theme('spacing.20'),
-            borderTopWidth: '1px',
+            marginTop: theme('spacing.10'),
+            marginBottom: theme('spacing.10'),
+            borderTopWidth: '2px',
             borderColor: 'var(--tw-prose-hr)',
-            '@screen lg': {
-              marginLeft: `calc(${theme('spacing.12')} * -1)`,
-              marginRight: `calc(${theme('spacing.12')} * -1)`,
-            },
+            width: '50%',
+            marginLeft: 'auto',
+            marginRight: 'auto',
           },
 
           // Tables
