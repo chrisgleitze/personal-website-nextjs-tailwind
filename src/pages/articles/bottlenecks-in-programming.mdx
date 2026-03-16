@@ -3,24 +3,22 @@ import { ArticleLayout } from '@/components/ArticleLayout'
 export const meta = {
   author: 'Christian Gleitze',
   date: '2025-06-17',
-  title: 'Sources of inspiration and efficiency bottlenecks in programming',
-  description: "And how that applies to knowledge work in general.",
+  title: 'Sources of inspiration and productivity bottlenecks in programming',
+  description: 'And how that applies to knowledge work in general.',
   category: ['Programming', 'Philosophy'],
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-Here are three lessons I learned from coding that are not specific to programming languages. The first two are to remove typing and navigation as efficiency bottlenecks. Those two will make you significantly faster. The third one is advice on where to get inspiration from.
-
-These lessons transfer to other knowledge work as well, as I will show at the end. This is what I would've loved to hear when I started out coding.
+Here are three lessons I learned from coding that are not specific to programming languages. The first two are to remove typing and navigation as productivity bottlenecks. This is what I would've loved to hear when I started out coding. Those two will make you significantly faster. The third one is advice on where to get inspiration from. These lessons transfer to other knowledge work as well, as I will show at the end.
 
 ## Get good at touch typing
 
-Practice daily for at least 10, better 30 minutes on a website like MonkeyType. Practice until you easily write over 100 words per minute. Even with AI assistance, you will still be typing a lot — whether it's writing code, prompts, documentation, or prose. If you're working at a computer, fast typing removes one of the most basic friction points. Focus on accuracy first; speed follows naturally. Once you stop looking at the keyboard, you free up attention for the actual problem you're solving. Typing is one bottleneck, the other one is navigation.
+Practice daily for at least 10 to 20 minutes on a website like Monkeytype. Practice until you easily write over 100 words per minute. Even with AI assistance, you will still type a lot if you want to do any amount of knowledge work — whether it's writing code, prompts, documentation, prose, research papers, articles on LinkedIn, e-mails etc. If you're working at a computer, fast typing removes one of the most basic friction points. Once you stop looking at the keyboard, you free up attention for the actual problem you're solving.
 
 ## Know how to navigate quickly in your terminal and code editor
 
-Quick navigation is key to get to your destination fast. It is important to not waste mental energy on long manual searches for files or information on your system. You need to save your mental capacity for the challenging tasks. The first step is to add the most popular fuzzy finder to your system, appropriately called [fzf](https://github.com/junegunn/fzf). Then you can use Ctrl-r and Ctrl-t to fuzzy search your command history and for files respectively. You can also set up a custom keybinding for directory search (I use Alt-s).
+Quick navigation is key to get to your destination fast. It's important to not waste mental energy on long manual searches for files in big software repositories. You need to save your mental capacity for the challenging tasks. The first step is to add the most popular fuzzy finder to your system, appropriately called [fzf](https://github.com/junegunn/fzf). Then you can use Ctrl-r and Ctrl-t to fuzzy search your command history and for files respectively. You can also set up a custom keybinding for directory search (I use Alt-s).
 
 The second is to add aliases to your bash or zsh config, at least for paths that you frequently use, like your editor config (Neovim in my case) and the directory that contains your coding projects:
 
@@ -31,15 +29,15 @@ alias cdp='cd $HOME/projects'
 
 You could navigate there with fzf as well, but typing cdn is still quicker. Though I admit, this is a small win compared to going from manual navigation to fzf in the first place.
 
-The third step is to use a fuzzy finder in your code editor, so you can search for files and specific code much more quickly. For Vim and Neovim there's really good fzf integrations. In my opinion the best option for Vim is [fzf.vim](https://github.com/junegunn/fzf.vim) by the creator of the fzf tool mentioned above. For Neovim I can recommend [fzf-lua](https://github.com/ibhagwan/fzf-lua) which is super fast and you can configure all kinds of layout changes and keybinds.
+The third step is to use a fuzzy finder in your code editor, so you can search for files and specific code much more quickly in your code editor. For Vim and Neovim there's really good fzf integrations. In my opinion the best option for Vim is [fzf.vim](https://github.com/junegunn/fzf.vim) by the creator of the fzf tool mentioned above. For Neovim I can recommend [fzf-lua](https://github.com/ibhagwan/fzf-lua) which is super fast and you can configure all kinds of searches tailored to your needs.
 
 ## Get inspiration from the right people
 
-When I started out learning Vim and Neovim I didn't know where to look, especially when it came to the configuration. Now looking back I would recommend going through the configuration files of the core maintainers and top contributors of Vim and Neovim.
+When I started out learning Vim and Neovim I didn't know where to look, especially when it came to the configuration. Now looking back I would recommend going through the configuration files of the maintainers and top contributors of Vim and Neovim. By going through their configurations you learn how the professionals do it.
 
-For other technologies it is similar: Look for popular projects on GitHub and see who the top contributors are. They usually have repos you can learn a lot from. If you're learning a web framework, read the source of a well-regarded open-source app built with it. If you're learning a language, study the standard library — it's usually written by the best programmers in that ecosystem.
+For other technologies it is similar: Look for popular projects on GitHub and see who the top contributors are. They usually have repos you can learn a lot from. If you're learning a web framework, read the source of a well-regarded open-source app built with it. If you're learning a language, study the standard library. It's usually written by the best programmers in that ecosystem.
 
-Here's one concrete example of what you find when you dig through expert configurations. This handy command from [my Neovim configuration](https://github.com/chrisgleitze/init.lua) edits all occurrences of a word in a file. I saw this one in a video of ThePrimeagen, a popular programmer on YouTube. You can also find it in [his Neovim config](https://github.com/ThePrimeagen/init.lua/blob/72a1a7ecd96bb44b8958b26641da674d569b87bc/lua/theprimeagen/remap.lua#L49).
+Here's one concrete example of what you find when you dig through expert configurations. This handy command from [my Neovim configuration](https://github.com/chrisgleitze/init.lua) edits all occurrences of a word in a file, if I press the leader key and then the s-key twice. I borrow it from [the Neovim config](https://github.com/ThePrimeagen/init.lua/blob/72a1a7ecd96bb44b8958b26641da674d569b87bc/lua/theprimeagen/remap.lua#L49) of a popular YouTube programmer.
 
 ```
 -- change all occurrences of the word the cursor is on in a file
@@ -50,10 +48,22 @@ map('n', '<leader>ss', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 Knowledge work is work that mainly consists of thinking minus physical labor. Of course a bricklayer is thinking as well but in order to do physical labor. A knowledge worker like a Software Engineer or a Professor of Philosophy is thinking but not in order to do heavy physical labor. I use many of the tools and workflows from programming in my work on my doctoral thesis in Philosophy, and I've found that the three lessons above map directly.
 
-**Reduce friction in your output medium.** The typing lesson generalizes: whatever your primary medium of output is, make the mechanics effortless. For me writing a philosophy thesis, it's the same skill — fast typing in a text editor. For a mathematician it might be fluency with LaTeX notation. For someone in a more verbal field it could be dictation. The principle is the same: don't let the mechanics of producing output be the bottleneck.
+**Reduce friction in your output medium.** Whatever your primary medium of output is, make the mechanics effortless. For me writing a philosophy thesis, I type fast in a text editor. For a mathematician it might be fluency with LaTeX notation. For someone in a more verbal field it could be dictation. The principle is the same: Don't let the mechanics of producing output be the bottleneck.
 
-**Organize your information retrieval.** The navigation lesson is about making lookup cheap so you can save your mental energy for the hard thinking. In programming that means fuzzy finders and aliases. In academic work it means a good reference manager like Zotero, a note-linking system like Obsidian or a Zettelkasten, and consistent file naming conventions. I use fzf to search through my research notes and PDF annotations the same way I use it to navigate code. The tool is the same, the principle is the same.
+**Organize your information retrieval.** The navigation lesson is about making lookup cheap, so you can save your mental energy for the hard tasks. In programming that means fuzzy finders and aliases. In academic work it means a good reference manager like Zotero, a note-linking system like Obsidian or a Zettelkasten, and consistent file naming conventions. I use fzf to search through my research notes and PDF annotations the same way I use it to navigate code. The tool is the same, the principle is the same.
 
-**Study the workflows of the best in your field.** The inspiration lesson translates most directly. In programming you read expert configurations and source code. In knowledge work more broadly, study not just *what* the best thinkers in your field argue but *how* they work — how they structure their reading, take notes, and build arguments. Read their methodological reflections, watch their lectures, look at their bibliographies.
+**Study the workflows of the best in your field.** The inspiration lesson translates most directly. In programming you read expert configurations and source code. In knowledge work more broadly, study not just what the best thinkers in your field argue but how they work — how they structure their reading, take notes, and build arguments. Read their methodological reflections, watch their lectures, look at their bibliographies. Below I list some resources I recommend.
 
-In any knowledge work, the bottleneck is rarely the thinking itself — it's everything around it. Remove the friction, and the thinking flows.
+Remove the bottlenecks of your workflow and get inspired by the best, so there's as little restrictions for you to think. Then read and write a lot and discuss your ideas with other people.
+
+---
+
+## Appendix
+
+There's many PDFs by academic institutions about writing philosophical papers flying around the internet. The [Guidelines on Writing a Philosophy Paper](https://www.jimpryor.net/teaching/guidelines/writing.html) by Jim Pryor are very good and concise. "A philosophy paper consists of the reasoned defense of some claim", he begins. The rest is written as much to the point as you'd expect after that beginning. What will never get old and what goes without saying is the study of the classics by Plato, Aristotle, Kant etc.
+
+To get a better understanding of clear prose and the process of writing, I liked:
+McPhee, John: Draft No. 4. Farrar, Straus & Giroux Inc, New York 2017.
+
+Very good introduction to philosophical reasoning, though in German:
+Tetens, Holm: Philosophisches Argumentieren. Beck, München 2004.
