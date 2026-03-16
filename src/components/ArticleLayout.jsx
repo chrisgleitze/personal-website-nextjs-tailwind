@@ -54,13 +54,28 @@ export function ArticleLayout({
                 <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                   {meta.title}
                 </h1>
-                <time
-                  dateTime={meta.date}
-                  className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
-                >
+                <div className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500">
                   <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
-                  <span className="ml-3">{formatDate(meta.date)}</span>
-                </time>
+                  <time dateTime={meta.date} className="ml-3">
+                    {formatDate(meta.date)}
+                  </time>
+                  {meta.category && (
+                    <>
+                      <span className="mx-2">&middot;</span>
+                      {(Array.isArray(meta.category)
+                        ? meta.category
+                        : [meta.category]
+                      ).map((cat) => (
+                        <span
+                          key={cat}
+                          className="mr-2 inline-flex items-center rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
+                        >
+                          {cat}
+                        </span>
+                      ))}
+                    </>
+                  )}
+                </div>
               </header>
               <Prose className="mt-8">{children}</Prose>
             </article>
