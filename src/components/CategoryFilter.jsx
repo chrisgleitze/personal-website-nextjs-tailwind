@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 
-const categories = ['All', 'Philosophy', 'Programming', 'Podcasting']
+const categories = ['All', 'Other', 'Philosophy', 'Programming', 'Podcasting']
 
 export function CategoryFilter({ activeCategory, onCategoryChange }) {
   return (
