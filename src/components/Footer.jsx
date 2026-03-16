@@ -45,7 +45,7 @@ export function Footer() {
                 } flex-col items-center gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200 sm:flex sm:flex-row`}
               >
                 <NavLink href="/projects">Projects</NavLink>
-                <NavLink href="/articles">Blog</NavLink>
+                <NavLink href="/blog">Blog</NavLink>
                 <NavLink href="/podcast">Podcast</NavLink>
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="/datenschutz">Datenschutzerklärung</NavLink>

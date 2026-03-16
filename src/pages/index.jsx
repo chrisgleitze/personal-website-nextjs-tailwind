@@ -20,7 +20,7 @@ import { useVisitorStats } from '@/lib/useVisitorStats'
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
+      <Card.Title href={`/blog/${article.slug}`}>
         {article.title}
       </Card.Title>
       <Card.Description>{article.description}</Card.Description>
