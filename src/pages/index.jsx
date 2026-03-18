@@ -104,7 +104,7 @@ export default function Home({ articles }) {
             in Frankfurt, Germany. I{' '}
             <span className="text-normal font-bold">
               develop apps, websites and other software
-            </span>
+            /span>
             , in the past for clients like DZ Bank, startups like Lofino and
             more.
           </p>
