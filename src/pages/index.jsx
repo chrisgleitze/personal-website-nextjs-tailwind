@@ -20,9 +20,7 @@ import { useVisitorStats } from '@/lib/useVisitorStats'
 function Article({ article }) {
   return (
     <Card as="article">
-      <Card.Title href={`/blog/${article.slug}`}>
-        {article.title}
-      </Card.Title>
+      <Card.Title href={`/blog/${article.slug}`}>{article.title}</Card.Title>
       <Card.Description>{article.description}</Card.Description>
       <Card.Cta>Read article</Card.Cta>
     </Card>
@@ -104,7 +102,7 @@ export default function Home({ articles }) {
             in Frankfurt, Germany. I{' '}
             <span className="text-normal font-bold">
               develop apps, websites and other software
-            /span>
+            </span>
             , in the past for clients like DZ Bank, startups like Lofino and
             more.
           </p>
