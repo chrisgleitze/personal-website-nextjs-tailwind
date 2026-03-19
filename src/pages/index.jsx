@@ -22,7 +22,6 @@ function Article({ article }) {
     <Card as="article">
       <Card.Title href={`/blog/${article.slug}`}>{article.title}</Card.Title>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
     </Card>
   )
 }
