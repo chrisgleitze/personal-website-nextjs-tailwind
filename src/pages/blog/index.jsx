@@ -10,9 +10,7 @@ function Article({ article }) {
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">
       <Card className="md:col-span-3">
-        <Card.Title href={`/blog/${article.slug}`}>
-          {article.title}
-        </Card.Title>
+        <Card.Title href={`/blog/${article.slug}`}>{article.title}</Card.Title>
         <Card.Description>{article.description}</Card.Description>
       </Card>
     </article>
@@ -28,7 +26,7 @@ export default function ArticlesIndex({ articles }) {
       : articles.filter((article) =>
           Array.isArray(article.category)
             ? article.category.includes(activeCategory)
-            : article.category === activeCategory
+            : article.category === activeCategory,
         )
 
   return (
@@ -42,7 +40,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout
         title="Blog"
-        intro="My thoughts on AI, programming, podcasting and much more. I don't use AI to write my texts because I love writing and I want my thoughts on here to be as authentically mine as possible."
+        intro="I don't use AI to write my texts because I love to write."
       >
         <div>
           <CategoryFilter

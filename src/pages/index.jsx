@@ -50,22 +50,6 @@ function Photos() {
   )
 }
 
-function YouTubeEmbed() {
-  return (
-    <div className="mt-16 flex justify-center sm:mt-20">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/6x_e5zbnlRs?si=Ot9MXtSyXDn33czs"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
-    </div>
-  )
-}
-
 export default function Home({ articles }) {
   const [activeCategory, setActiveCategory] = useState('All')
   const stats = useVisitorStats()
@@ -135,7 +119,7 @@ export default function Home({ articles }) {
               On YouTube
             </a>{' '}
             I publish coding videos. In my blog I write about AI, programming,
-            podcasting and other interests of mine. You&apos;ll find both below.{' '}
+            podcasting and other interests of mine.{' '}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             You can get in touch with me by sending an e-mail to:{' '}
@@ -152,7 +136,6 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Photos />
-      <YouTubeEmbed />
       <Container className="mt-24 md:mt-28">
         <CategoryFilter
           activeCategory={activeCategory}
