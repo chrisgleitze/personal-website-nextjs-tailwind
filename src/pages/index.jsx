@@ -118,8 +118,8 @@ export default function Home({ articles }) {
             >
               On YouTube
             </a>{' '}
-            I publish coding videos. In my blog I write about AI, programming,
-            podcasting and other interests of mine.{' '}
+            I publish coding videos. In my blog I write about AI, philosophy,
+            programming, podcasting and other interests of mine.{' '}
           </p>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             You can get in touch with me by sending an e-mail to:{' '}
