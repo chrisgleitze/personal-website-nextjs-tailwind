@@ -24,6 +24,14 @@ export default function App({ Component, pageProps, router }) {
     <>
       <Head>
         <title>Christian Gleitze</title>
+        <meta
+          property="og:title"
+          content="Christian Gleitze"
+        />
+        <meta
+          property="og:description"
+          content="Full-Stack Software Engineer from Frankfurt – Blog, YouTube Videos, Podcasts & more."
+        />
       </Head>
 
       {/* Google Tag Manager (gtag.js) */}
