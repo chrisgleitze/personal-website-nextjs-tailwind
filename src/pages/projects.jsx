@@ -11,8 +11,17 @@ import logoNeovim from '@/images/logos/neovim.svg'
 
 const projects = [
   {
+    name: 'hegel.nvim',
+    description: 'Neovim Plugin for searching Hegel texts — Lua',
+    link: {
+      href: 'https://github.com/chrisgleitze/hegel.nvim',
+      label: 'github.com',
+    },
+    logo: logoNeovim,
+  },
+  {
     name: 'kant.nvim',
-    description: 'Neovim Plugin — Lua, Vimscript',
+    description: 'Neovim Plugin for searching Kant texts — Lua',
     link: {
       href: 'https://github.com/chrisgleitze/kant.nvim',
       label: 'github.com',
