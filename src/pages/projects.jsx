@@ -4,13 +4,21 @@ import Image from 'next/image'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoNextJS from '@/images/logos/nextjs.svg'
-import logoBootstrap from '@/images/logos/bootstrap.svg'
 import logoWebflow from '@/images/logos/webflow.svg'
 import logoReact from '@/images/logos/react.svg'
 import logoWordPress from '@/images/logos/wordpress.svg'
 import logoNeovim from '@/images/logos/neovim.svg'
 
 const projects = [
+  {
+    name: 'kant.nvim',
+    description: 'Neovim Plugin — Lua, Vimscript',
+    link: {
+      href: 'https://github.com/chrisgleitze/kant.nvim',
+      label: 'github.com',
+    },
+    logo: logoNeovim,
+  },
   {
     name: 'Personal Website',
     description: 'React, Next.js, Tailwind CSS',
